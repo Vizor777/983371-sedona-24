@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'PT Sans';           /* название одно */
-    src: url('../fonts/pt_sans-web-regular-webfont.woff2', '../fonts/pt_sans-web-regular-webfont.woff1'); /* разные файлы */
+    src: url('../fonts/pt_sans-web-regular-webfont.woff2', '../fonts/pt_sans-web-regular-webfont.woff'); /* разные файлы */
     font-weight: **400**;              /* разная плотность */
     font-style: normal;
 }
 @font-face {
     font-family: 'PT Sans';           /* название одно */
-    src: url('../fonts/pt_sans-web-bold-webfont.woff2', '../fonts/pt_sans-web-bold-webfont.woff1'); /* разные файлы */
+    src: url('../fonts/pt_sans-web-bold-webfont.woff2', '../fonts/pt_sans-web-bold-webfont.woff'); /* разные файлы */
     font-weight: **700**;              /* разная плотность */
     font-style: normal;
 }
