@@ -68,7 +68,7 @@ ul.site-navigation li
     line-height: 26px;
     text-align: center;
     color: #000000;
-    background-image: url("../img/polygon.png");
+    
 }
 /*Шрифт причин*/
 .advantages {
@@ -101,6 +101,7 @@ ul.site-navigation li
     font-weight: normal;
     line-height: 36px;
     color: #000000;
+    text-align: center;
 }
 .advantages-selection {
     font-family: PT Sans;
@@ -334,9 +335,9 @@ ul.site-navigation li
 .logo-footer:active {stroke: #bdbbbc;} 
 /*Фон и лого Welcome*/
 .property-description {
-    background-color: #ffffff;
-    background-image: url("../img/backgroundphoto.jpg");
-    background-position: top center;
+    /*background-color: #ffffff*/;
+    background-image: url("../img/polygon.png"), url("../img/backgroundphoto.jpg") ;
+    background-position: center bottom, center;
     background-repeat: no-repeat;
     width: 1200px;
     height: 773px;
@@ -350,4 +351,18 @@ ul.site-navigation li
 }
 
 
+/*
+                              */
+.white-fone {
+    background-color: white; 
+}
 
+.form-fone {
+    width: 500px;
+    background-color: white;
+    text-align: center;
+}
+
+.main-footer {
+    background-color: rgba(255, 255, 255, 0.3);
+}
