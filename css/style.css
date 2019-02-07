@@ -1,13 +1,15 @@
 @font-face {
     font-family: 'PT Sans';           /* название одно */
-    src: url('../fonts/pt_sans-web-regular-webfont.woff2', '../fonts/pt_sans-web-regular-webfont.woff'); /* разные файлы */
-    font-weight: **400**;              /* разная плотность */
+    src: url('../fonts/pt_sans-web-regular-webfont.woff2'),
+         url('../fonts/pt_sans-web-regular-webfont.woff'); /* разные файлы */
+    font-weight: 400;              /* разная плотность */
     font-style: normal;
 }
 @font-face {
     font-family: 'PT Sans';           /* название одно */
-    src: url('../fonts/pt_sans-web-bold-webfont.woff2', '../fonts/pt_sans-web-bold-webfont.woff'); /* разные файлы */
-    font-weight: **700**;              /* разная плотность */
+    src: url('../fonts/pt_sans-web-bold-webfont.woff2'),
+         url('../fonts/pt_sans-web-bold-webfont.woff'); /* разные файлы */
+    font-weight: 700;              /* разная плотность */
     font-style: normal;
 }
 body {
@@ -147,13 +149,13 @@ li {
     padding-right: 12px;
     padding-top: 5px;
 }
-/*
+
 .star-hotel-2 {
     background-image: url(../img/star.png);
     background-size:  18px, 17px;
     background-repeat: repeat; 
     height: 17px;
-    width: 36px;/* Повторяем фон по горизонтали 
+    width: 36px;
 }
 .star-hotel-3 {
     background-image: url(../img/star.png);
@@ -169,7 +171,7 @@ li {
     height: 17px;
     width: 72px;
 }
-*/
+
 
 .hotel-name:hover {
     color: #81b3d2;
