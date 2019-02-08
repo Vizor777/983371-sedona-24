@@ -84,7 +84,7 @@ li {
 /*Шрифт формы заказа*/
 .trip-selection {
     font-size: 30px;
-    font-weight: normal;
+    font-weight: bold;
     line-height: 36px;
     color: #000000;
     text-align: center;
@@ -262,6 +262,9 @@ li {
 }
 .form-search {
     background-color: #f2f2f2;
+    font-weight: bold;
+    text-transform: uppercase;
+
 }
 .form-search:hover {
     background-color: #ebebeb;
