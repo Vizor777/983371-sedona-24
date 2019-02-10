@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
 @font-face {
     font-family: 'PT Sans';           /* название одно */
     src: url('../fonts/pt_sans-web-regular-webfont.woff2'),
@@ -50,23 +58,19 @@ li {
     line-height: 26px;
     text-align: center;
     color: #000000;
-    position: absolute;
-    top: 900px; /* Расстояние от верхнего края */
-    left: 380px; /* Расстояние от левого края */ 
-    margin-top: 60px;  
+    display:block; 
+    text-align:center; 
+    width:100%;
+    margin:0;
+    
 }
 /*Шрифт причин*/
 .advantages {
     font-size: 14px;
     font-weight: normal;
     line-height: 26px;
-    text-align: center;
+    /*text-align: center;*/
     color: #333333;
-    position: absolute;
-    top: 1000px; /* Расстояние от верхнего края */
-    left: 380px; /* Расстояние от левого края */ 
-    bottom: 0; 
-    right: 220;
 }
 /*Скрытые заголовки*/
 .visually-hidden { 
@@ -305,15 +309,37 @@ li {
 .logo-footer:active {fill: #bdbbbc;} 
 /*Фон и лого Welcome*/
 .property-description {
-    background-image: url("../img/polygon.png"), url("../img/backgroundphoto.jpg") ;
+    
+}
+.main-welcom-fon {
+    background-image: url("../img/polygon.svg"), url("../img/background.jpg");
     background-position: center bottom, center;
     background-repeat: no-repeat;
     width: 1200px;
     height: 773px;
-    object-fit: contain;
+    object-fit: contain; 
+}
+.white-fon {
+    width: 1200px;
+    background-color: #ffffff;
+    text-align: center;
+    /*display:inline-block; 
+    vertical-align:middle;
+    margin:0 0 0 1em; */
+    height: 216px;
+    
+    
+}
+.logo-welcom {
+    width: 459px;
+    height: 353px;
+    margin-left:auto; 
+    margin-right:auto; 
+    display:block;
+
 }
 .white-fone {
-    background-color: white;
+    background-color: #ffffff;
     text-align: center;
     margin-top: 200px;
 }
