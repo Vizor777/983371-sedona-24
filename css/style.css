@@ -28,6 +28,25 @@ body {
     text-transform: uppercase;
     
 }
+.container-header {
+    width: 1200px;
+    margin: 0px 40px;
+
+}
+.container {
+  width: 1200px;
+  margin: 0px 40px;
+
+}
+.container-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+   
+}
+  
+ 
 /*Шрифт меню хедера*/
 
 a {
@@ -35,6 +54,9 @@ a {
 }
 li {
     display: inline-block;
+}
+.site-navigation {
+    padding: 0px;
 }
 .site-navigation-section {
     font-size: 14px;
@@ -51,6 +73,7 @@ li {
 .site-navigation-section-curret {
     color: #766357;
 }
+
 /*Шрифт слогана*/
 .description-town {
     font-size: 21px;
@@ -299,6 +322,11 @@ li {
     line-height: 1.86;
     text-align: center;
     color: #000000;
+}
+.main-header-logo {
+  margin-left:auto; 
+    margin-right:auto; 
+    display:block;  
 }
 .logo-footer {
     width: 115px;
