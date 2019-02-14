@@ -4,8 +4,8 @@
   box-sizing: inherit;
 }
 html {
-  box-sizing: border-box;
-    background-color: #f2f2f2;
+    box-sizing: border-box;
+    background-color: #A5A79E;
   
 
 }
@@ -29,66 +29,62 @@ body {
     line-height: 26px;
     color: #000000;
     text-transform: uppercase;
-    margin-right: 50px;
-    margin-left: 50px;
+    width: 1200px;
+    display: block;
+    margin-right: 56px;
+    margin-left: 56px;
+    box-sizing: border-box;
     
 }
 footer {
     
     width: 1200px;
     height: 120px;
-    top: 2641px;
     background-color: rgba(255, 255, 255, 0.9);
     
     
 }
 .container-header {
     width: 1200px;
-    margin-left: 48px;
+    
     
 }
-.container-main {
+/**/.container-main {
  
-  position:absolute;
-  top: 0px;
-  width: 1256px;
-  height: 593px;
-
-
+  display: block;
+  
 }
 .main-navigation {
     background-color: #ffffff;
+    display: inline-block;
     
 }
 .info1 {
-    
     display: block;
-    width: auto;
-    margin-left: 20px; 
-    
+    width: 100px;
+    margin-left: 60px;
+    float: left;
 }
 .fhoto1 {
-   
-   display: block;
-    width: auto;
-   margin-left: 20px;
+    display: block;
+    width: 100px;
+    margin-left: 60px;
+    float: left;
 
 }
 .map1 {
-    
     display: block;
-    width: auto;
-    margin-right: 20px;
-    margin-left: 400px;
-    
+    width: 100px;
+    float: right;
+    margin-left: 558px;
+
 }
 .hotels1 {
-    
     display: block;
-    width: auto;
-    padding-right: 20px;
-    margin-left: 200px;
-    
+    width: 100px;
+    float: right;
+    margin-left: 45px;
+
 }
 .container-navigation {
     
@@ -96,6 +92,9 @@ footer {
     width: 1200px;
     height:56px;
     padding: 0; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+
 }
   
  
@@ -113,7 +112,8 @@ li {
     font-size: 14px;
     font-weight: bold;
     text-align: center;
-    color: #000000; 
+    color: #000000;
+    margin-top: 15px;
 }
 .site-navigation-section:hover {
     color: #81b3d2;
@@ -135,17 +135,21 @@ li {
     text-align: center;
     color: #000000;
     display:block; 
+    margin-right: auto;
+    margin-left: auto;
     text-align:center;  
 }
 /*Шрифт причин*/
 .advantages {
+    width: 500px;
     font-size: 14px;
     font-weight: normal;
     line-height: 26px;
     color: #333333;
-    position: absolute;
-    top: 147px;
-    left: 355px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
 }
 /*Скрытые заголовки*/
 .visually-hidden { 
@@ -166,12 +170,24 @@ li {
     font-weight: bold;
     line-height: 36px;
     color: #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding-top: 20px;
+    text-align: center;
 }
 .advantages-selection {
     font-size: 14px;
     font-weight: normal;
     line-height: 24px;
     color: #333333; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    padding-top: 20px;
+    text-align: center;
     }
 /*Шрифт окна поиска */
 .selection-button {
@@ -184,13 +200,71 @@ li {
     background-color:  #766357;
     width: 568px;
     height: 86px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+
 }
+/*Форма заполнения данных*/
 .form-zone {
     font-size: 14px;
     font-weight: bold;
     line-height: 26px;
     color: #000000;
-
+    display: block;
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.zone3 {
+    display: inline-block;
+    margin-right: 60px;
+}
+.zone4 {
+    display: inline-block;
+}
+.date1 {
+    display: inline-block;
+}
+.date2 {
+    display: inline-block;
+}
+.date3 {
+    display: inline-block;
+}
+.date4 {
+    display: inline-block;
+}
+.form-search1 {
+    display: inline-block;
+    padding-left: 10px;
+    margin-left: 22px;
+    width: 358px;
+    height: 32px;
+}
+.form-search2 {
+    display: inline-block;
+    padding-left: 10px;
+    margin-left: 15px;
+    width: 358px;
+    height: 32px;
+}
+.form-search3 {
+    display: inline-block;
+    margin-left: 45px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+}
+.form-search4 {
+    display: inline-block;
+    margin-left: 78px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
 }
 .hotel-name {
     font-size: 21px;
@@ -256,9 +330,18 @@ li {
     color: rgba(0, 0, 0, 0.3);
 }
 .button-date {
+    border: 0px;
     position: absolute;
-    left: 415px;
-    top: 4px;
+    left: 820px;
+    top: 1438px;
+    background-color: #f2f2f2;
+} 
+.button-date2 {
+    border: 0px;
+    position: absolute;
+    left: 820px;
+    top: 1500px;
+    background-color: #f2f2f2;
 } 
  .button-more {
     font-family: "PT Sans", "Arial", sans-serif;
@@ -314,6 +397,8 @@ li {
     background-image: url("../img/map.jpg");
     background-size: 1200px 593px;
     background-position: top;
+    margin-left: auto;
+    margin-right: auto;
 } 
 .selection-button:hover {
     color: #ffffff;
@@ -330,9 +415,13 @@ li {
     line-height: 26px;
     color: #ffffff;
     background-color: #81b3d2;
-    width: 458px;
-    height: 58px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    width: 500px;
+    height: 50px;
 }
+    
 .find-button:hover {
     color: #ffffff;
 }
@@ -343,6 +432,9 @@ li {
     background-color: #f2f2f2;
     font-weight: bold;
     text-transform: uppercase;
+    display: inline-block;
+    border: 0px;
+
 }
 .form-search:hover {
     background-color: #ebebeb;
@@ -353,7 +445,6 @@ li {
 .calendar {
     width: 21px;
     height: 22px;
-    
     color: #eeeeee;
 }
 .calendar:hover {fill:  #000000;}
@@ -364,20 +455,25 @@ li {
     font-weight: bold;
     line-height: 1.24;
     color: #000000;
-
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 80px;
 }
 /*Копирайт*/
 .web-copyright {
+    position: absolute;
+    left: 898px;
+    top: 45px;
     font-size: 14px;
     font-weight: normal;
     line-height: 1.86;
-    color: #000000;
-    
+    color: #000000;  
 }
 .main-header-logo { 
     display:block;
     position:absolute;
-    left: 529px;
+    left: 580px;
     top: 0px;
     z-index: 4;
 }
@@ -386,6 +482,13 @@ li {
 
 .main-footer {
     position: absolute;
+    top: 1878px;
+    left: 56px;
+}
+.footer-social {
+    position: absolute;
+    top: 20px;
+    left: 520px;
 }
 .logo-footer {
     width: 115px;
@@ -399,11 +502,13 @@ li {
 /*Фон и лого Welcome*/
 .property-description {
     background-color: #ffffff;
-    
+    margin-left: auto;
+    margin-right: auto;
+    height: 
 }
 .main-welcom-fon {
-    margin-top: 56px;
-    margin-left: 48px;
+    margin-left: auto;
+    margin-right: auto;
     background-image:  url("../img/background.jpg");
     background-position: top;
     background-repeat: no-repeat;
@@ -413,7 +518,7 @@ li {
 }
 .polygon {
     position: absolute;
-    top: 771px;
+    top: 772px;
     width: 1201px;
     height: 59px;
 }
@@ -421,113 +526,71 @@ li {
     width: 1200px;
     height: 216px;
     background-color: #ffffff;
-    text-align: center; 
-    
-  
-    
-        
+    display: block;
+    margin-right: auto;
+    margin-left: auto;      
 }
 .logo-welcom {
     width: 459px;
     height: 353px;
     display:block;
-    position: absolute;
-    top: 76px;
-    left: 370px;
-
-
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 100px;
 }
 .white-fone-search {
     width: 1200px;
     height: 291px;
     background-color: #ffffff;
-    text-align: center;
-  
+    margin-left: auto;
+    margin-right: auto;
 }
 .form-fone {
     width: 568px;
     height: 395px;
     background-color: white;
-  
-}
-.zone1 {
-    
-    width: 458px;
-}
-.form-search1 {
-    
-    width: 346px;
-    height: 38px;
-}
-.date1 {
-    
-}
-.zone2 {
-   
-    width: 458px;
-}
-.form-search2 {
-    
-    width: 346px;
-    height: 38px;
-}
-.date2 {
-    
-}
-.zone3 {
-    
-    width: 150px;
-}
-.form-search3 {
-    
-    width: 38px;
-    height: 38px;
-    text-align: center;
-}
-.date3 {
-    
-}
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}  
+ .button-form {
+    border: 0px;
+ }
+ 
 .button-minus1 {
     position: absolute;
-    left: 112px;
+    left: 33.9em;
     width: 38px;
     height: 38px;
+    background-color: #f2f2f2;
 }
 .button-plus1 {
     position: absolute;
-    left: 188px;
+    top: 1559px;
+    left: 793px;
     width: 38px;
     height: 38px;
-}
-.zone4 {
-    
-    width: 150px;
-}
-.form-search4 {
-    
-    width: 38px;
-    height: 38px;
-    text-align: center;
-}
-.date4 {
-    
+    background-color: #f2f2f2;
 }
 .button-minus2 {
     position: absolute;
-    left: 66px;
+    left: 718px;
     width: 38px;
     height: 38px;
+    background-color: #f2f2f2;
 }
 .button-plus2 {
     position: absolute;
-    left: 141px;
+    top: 1559px;
+    left: 550px;
     width: 38px;
     height: 38px;
+    background-color: #f2f2f2;
 }
 .social-button-tw {
     position:absolute;
-    left: 524px;
-    top: 36px;
+    left: 0px;
+    top: 0px;
     background-image: url(../img/layer.jpg);
     width: 46px;
     height: 48px;
@@ -539,8 +602,8 @@ li {
 }
 .social-button-fb {
     position:absolute;
-    left: 576px;
-    top: 36px;
+    left: 50px;
+    top: 0px;
     background-image: url(../img/layer.jpg);
     width: 46px;
     height: 48px;
@@ -552,8 +615,8 @@ li {
 }
 .social-button-yt {
     position:absolute;
-    left: 628px;
-    top: 36px;
+    left: 100px;
+    top: 0px;
     background-image: url(../img/layer.jpg);
     width: 46px;
     height: 48px;
