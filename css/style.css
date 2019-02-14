@@ -5,7 +5,7 @@
 }
 html {
     box-sizing: border-box;
-    background-color: #A5A79E;
+    background-color: #f2f2f2;
   
 
 }
@@ -31,8 +31,8 @@ body {
     text-transform: uppercase;
     width: 1200px;
     display: block;
-    margin-right: 56px;
-    margin-left: 56px;
+    margin-right: 40px;
+    margin-left: 40px;
     box-sizing: border-box;
     
 }
@@ -46,6 +46,9 @@ footer {
 }
 .container-header {
     width: 1200px;
+    /*height: 56px;*/
+    /*margin-top: 0px;
+    margin-bottom: 0px;*/
     
     
 }
@@ -56,44 +59,54 @@ footer {
 }
 .main-navigation {
     background-color: #ffffff;
-    display: inline-block;
+    /*display: block;*/
     
 }
 .info1 {
-    display: block;
-    width: 100px;
-    margin-left: 60px;
+    display: inline-block;
+    width: 239px;
+    height: 56px;
+    padding-left: 72px;
+    padding-right: 74px;
+    text-align: center;
     float: left;
+  
 }
 .fhoto1 {
-    display: block;
-    width: 100px;
-    margin-left: 60px;
-    float: left;
-
+    display: inline-block;
+    width: 239px;
+    height: 56px;
+    padding-right: 68px;
+    padding-left: 73px;
+    margin-left: 244px;
 }
 .map1 {
-    display: block;
-    width: 100px;
-    float: right;
-    margin-left: 558px;
-
+    display: inline-block;
+    width: 239px;
+    height: 56px;
+    padding-right: 73px;
+    padding-left: 76px;
+    float: left;
+    
+    
+    
 }
 .hotels1 {
-    display: block;
-    width: 100px;
+    display: inline-block;
     float: right;
-    margin-left: 45px;
-
+    width: 239px;
+    height: 56px;
+    padding-right: 72px;
+    padding-left: 88px;
 }
 .container-navigation {
-    
     background-color: #ffffff;
     width: 1200px;
     height:56px;
-    padding: 0; 
     margin-top: 0px;
     margin-bottom: 0px;
+    padding: 0px;
+    text-align: center;
 
 }
   
@@ -104,16 +117,17 @@ footer {
 a {
    text-decoration: none; 
 }
-li {
+/*li {
     display: inline-block;
-}
+}*/
 
 .site-navigation-section {
     font-size: 14px;
     font-weight: bold;
-    text-align: center;
     color: #000000;
-    margin-top: 15px;
+
+
+    
 }
 .site-navigation-section:hover {
     color: #81b3d2;
@@ -137,6 +151,7 @@ li {
     display:block; 
     margin-right: auto;
     margin-left: auto;
+    margin-top: 30px;
     text-align:center;  
 }
 /*Шрифт причин*/
@@ -149,7 +164,7 @@ li {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
+    margin-top: 38px;
 }
 /*Скрытые заголовки*/
 .visually-hidden { 
@@ -213,15 +228,52 @@ li {
     line-height: 26px;
     color: #000000;
     display: block;
-    margin-left: 20px;
+    margin-left: 55px;
+    padding-top: 55px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.form-zone2 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 26px;
+    color: #000000;
+    display: block;
+    margin-left: 55px;
+    padding-top: 29px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.form-zone3 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 26px;
+    color: #000000;
+    display: block;
+    margin-left: 55px;
     padding-top: 30px;
     padding-bottom: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
+.form-zone4 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 26px;
+    color: #000000;
+    display: block;
+    margin-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
 .zone3 {
     display: inline-block;
-    margin-right: 60px;
+    margin-right: 55px;
 }
 .zone4 {
     display: inline-block;
@@ -237,31 +289,32 @@ li {
 }
 .date4 {
     display: inline-block;
+    margin-left: 22px;
 }
 .form-search1 {
     display: inline-block;
     padding-left: 10px;
-    margin-left: 22px;
-    width: 358px;
-    height: 32px;
+    margin-left: 21px;
+    width: 346px;
+    height: 38px;
 }
 .form-search2 {
     display: inline-block;
     padding-left: 10px;
-    margin-left: 15px;
-    width: 358px;
-    height: 32px;
+    margin-left: 14px;
+    width: 346px;
+    height: 38px;
 }
 .form-search3 {
     display: inline-block;
-    margin-left: 45px;
+    margin-left: 71px;
     width: 38px;
     height: 38px;
     text-align: center;
 }
 .form-search4 {
     display: inline-block;
-    margin-left: 78px;
+    margin-left: 56px;
     width: 38px;
     height: 38px;
     text-align: center;
@@ -332,15 +385,15 @@ li {
 .button-date {
     border: 0px;
     position: absolute;
-    left: 820px;
-    top: 1438px;
+    left: 830px;
+    top: 1476px;
     background-color: #f2f2f2;
 } 
 .button-date2 {
     border: 0px;
     position: absolute;
-    left: 820px;
-    top: 1500px;
+    left: 830px;
+    top: 1543px;
     background-color: #f2f2f2;
 } 
  .button-more {
@@ -417,9 +470,11 @@ li {
     background-color: #81b3d2;
     display: block;
     margin: auto;
-    margin-top: 100px;
-    width: 500px;
-    height: 50px;
+    margin-top: 54px;
+    margin-bottom: 55px;
+    width: 458px;
+    height: 58px;
+    border: none;
 }
     
 .find-button:hover {
@@ -473,7 +528,7 @@ li {
 .main-header-logo { 
     display:block;
     position:absolute;
-    left: 580px;
+    left: 569px;
     top: 0px;
     z-index: 4;
 }
@@ -482,8 +537,8 @@ li {
 
 .main-footer {
     position: absolute;
-    top: 1878px;
-    left: 56px;
+    top: 1887px;
+    left: 40px;
 }
 .footer-social {
     position: absolute;
@@ -531,12 +586,13 @@ li {
     margin-left: auto;      
 }
 .logo-welcom {
-    width: 459px;
-    height: 353px;
+    width:auto;
+    height: auto;
     display:block;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 100px;
+    padding-top: 61px;
+    
 }
 .white-fone-search {
     width: 1200px;
@@ -559,35 +615,36 @@ li {
  
 .button-minus1 {
     position: absolute;
-    left: 33.9em;
+    left: 520px;
     width: 38px;
     height: 38px;
     background-color: #f2f2f2;
 }
 .button-plus1 {
     position: absolute;
-    top: 1559px;
-    left: 793px;
+    top: 1604px;
+    left: 595px;
     width: 38px;
     height: 38px;
     background-color: #f2f2f2;
 }
 .button-minus2 {
     position: absolute;
-    left: 718px;
+    left: 753px;
     width: 38px;
     height: 38px;
     background-color: #f2f2f2;
 }
 .button-plus2 {
     position: absolute;
-    top: 1559px;
-    left: 550px;
+    top: 1604px;
+    left: 828px;
     width: 38px;
     height: 38px;
     background-color: #f2f2f2;
 }
 .social-button-tw {
+    display: inline-block;
     position:absolute;
     left: 0px;
     top: 0px;
@@ -632,3 +689,6 @@ li {
 .social-button-tw:active {
     color: #5496bd;
 }
+
+.butmp:hover {fill: #000000;}
+.butmp:active {fill: #81b3d2;}
