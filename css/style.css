@@ -5,7 +5,7 @@
 }
 html {
     box-sizing: border-box;
-    background-color: #f2f2f2;
+    
   
 
 }
@@ -27,35 +27,22 @@ body {
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 21px;
     line-height: 26px;
-    color: #000000;
     text-transform: uppercase;
-    width: 1200px;
-    display: block;
-    margin-right: 40px;
-    margin-left: 40px;
     box-sizing: border-box;
-    
+    position: relative;
 }
-footer {
-    
-    width: 1200px;
+
+.foot {
     height: 120px;
     background-color: rgba(255, 255, 255, 0.9);
-    
-    
+    position: absolute;
+    bottom: 0px;
+    left: 352px; 
 }
-.container-header {
+.container {
     width: 1200px;
-    /*height: 56px;*/
-    /*margin-top: 0px;
-    margin-bottom: 0px;*/
+    margin: 0 auto;
     
-    
-}
-/**/.container-main {
- 
-  display: block;
-  
 }
 .main-navigation {
     background-color: #ffffff;
@@ -66,16 +53,17 @@ footer {
     display: inline-block;
     width: 239px;
     height: 56px;
+    padding-top: 12px;
     padding-left: 72px;
     padding-right: 74px;
     text-align: center;
     float: left;
-  
 }
 .fhoto1 {
     display: inline-block;
     width: 239px;
     height: 56px;
+    padding-top: 12px;
     padding-right: 68px;
     padding-left: 73px;
     margin-left: 244px;
@@ -84,18 +72,17 @@ footer {
     display: inline-block;
     width: 239px;
     height: 56px;
+    padding-top: 12px;
     padding-right: 73px;
     padding-left: 76px;
-    float: left;
-    
-    
-    
+    float: left;         
 }
 .hotels1 {
     display: inline-block;
     float: right;
     width: 239px;
     height: 56px;
+    padding-top: 12px;
     padding-right: 72px;
     padding-left: 88px;
 }
@@ -117,9 +104,9 @@ footer {
 a {
    text-decoration: none; 
 }
-/*li {
-    display: inline-block;
-}*/
+li {
+    list-style-type: none;
+}
 
 .site-navigation-section {
     font-size: 14px;
@@ -219,6 +206,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px;
+    border: none;
 
 }
 /*Форма заполнения данных*/
@@ -233,6 +221,7 @@ a {
     padding-bottom: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
+    position: relative;
 }
 .form-zone2 {
     font-size: 14px;
@@ -245,6 +234,7 @@ a {
     padding-bottom: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
+    position: relative;
 }
 .form-zone3 {
     font-size: 14px;
@@ -253,10 +243,12 @@ a {
     color: #000000;
     display: block;
     margin-left: 55px;
+    margin-right: 0px;
     padding-top: 30px;
     padding-bottom: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
+    position: relative;
 }
 .form-zone4 {
     font-size: 14px;
@@ -269,11 +261,12 @@ a {
     padding-bottom: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
+    position: relative;
 }
 
 .zone3 {
     display: inline-block;
-    margin-right: 55px;
+    /*margin-right: 55px;*/
 }
 .zone4 {
     display: inline-block;
@@ -294,12 +287,14 @@ a {
 .form-search1 {
     display: inline-block;
     padding-left: 10px;
+    padding-right: 40px;
     margin-left: 21px;
     width: 346px;
     height: 38px;
 }
 .form-search2 {
     display: inline-block;
+    padding-right: 40px;
     padding-left: 10px;
     margin-left: 14px;
     width: 346px;
@@ -307,15 +302,17 @@ a {
 }
 .form-search3 {
     display: inline-block;
-    margin-left: 71px;
-    width: 38px;
+    margin-left: 34px;
+    width: 114px;
     height: 38px;
+    padding-left: 40px;
+    padding-right: 40px;
     text-align: center;
 }
 .form-search4 {
     display: inline-block;
-    margin-left: 56px;
-    width: 38px;
+    margin-left: 35px;
+    width: 114px;
     height: 38px;
     text-align: center;
 }
@@ -383,18 +380,20 @@ a {
     color: rgba(0, 0, 0, 0.3);
 }
 .button-date {
-    border: 0px;
+    display: block;
     position: absolute;
-    left: 830px;
-    top: 1476px;
+    left: 420px;
+    top: 61px;
     background-color: #f2f2f2;
+    border: 0px;
 } 
 .button-date2 {
-    border: 0px;
+    display: block;
     position: absolute;
-    left: 830px;
-    top: 1543px;
+    left: 420px;
+    top: 35px;
     background-color: #f2f2f2;
+    border: 0px;
 } 
  .button-more {
     font-family: "PT Sans", "Arial", sans-serif;
@@ -525,21 +524,22 @@ a {
     line-height: 1.86;
     color: #000000;  
 }
+.logo-sedona {
+    display:block;
+    position: relative;
+    left: 530px;
+    right: auto;
+   
+}
 .main-header-logo { 
     display:block;
     position:absolute;
-    left: 569px;
-    top: 0px;
     z-index: 4;
 }
 
 /*Footer*/
 
-.main-footer {
-    position: absolute;
-    top: 1887px;
-    left: 40px;
-}
+
 .footer-social {
     position: absolute;
     top: 20px;
@@ -615,30 +615,30 @@ a {
  
 .button-minus1 {
     position: absolute;
-    left: 520px;
+    left: 110px;
     width: 38px;
     height: 38px;
     background-color: #f2f2f2;
 }
 .button-plus1 {
     position: absolute;
-    top: 1604px;
-    left: 595px;
+    top: 30px;
+    left: 185px;
     width: 38px;
     height: 38px;
     background-color: #f2f2f2;
 }
 .button-minus2 {
     position: absolute;
-    left: 753px;
+    left: 100px;
     width: 38px;
     height: 38px;
     background-color: #f2f2f2;
 }
 .button-plus2 {
     position: absolute;
-    top: 1604px;
-    left: 828px;
+    top: 30px;
+    left: 174px;
     width: 38px;
     height: 38px;
     background-color: #f2f2f2;
@@ -692,3 +692,85 @@ a {
 
 .butmp:hover {fill: #000000;}
 .butmp:active {fill: #81b3d2;}
+
+
+
+/*HOTELS PAGE*/
+.directory-listing {
+    width: 1200px;
+    margin: 0 auto;
+}
+.housing-list {
+    width: 1200px;
+    margin: 0 auto;
+}
+.foot1 {
+    position: absolute;
+    bottom: 0px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.9);
+    left: 330px;
+}
+
+.housing-list {
+   
+    margin-top: 200px;
+    padding-bottom: 150px;
+
+}
+.directory-listing {
+    
+    padding: 0px;
+}
+.directory-item {
+   position: relative;
+   margin-bottom: 60px;
+}
+.type-hotel {
+    display: block;
+    position: absolute;
+    left: 180px;
+    bottom: 48px;
+}
+.hotel-name {
+    display: block;
+    position: absolute;
+    left: 180px;
+    bottom: 75px;
+}
+.type-price {
+    display: block;
+    position: absolute;
+    left: 300px;
+    bottom: 48px;
+}
+.button-more {
+    display: block;
+    position: absolute;
+    left: 180px;
+    bottom: 5px;
+}
+.button-reservation  {
+    display: block;
+    position: absolute;
+    left: 300px;
+    bottom: 5px;
+}
+.star-hotel {
+    display: block;
+    position: absolute;
+    left: 932px;
+    bottom: 65px;
+}
+.star-hotel-3 {
+    left: 950px;
+}
+.star-hotel-2 {
+    left: 968px;
+}
+.rating {
+    display: block;
+    position: absolute;
+    left: 900px;
+    bottom: 5px;
+    }
