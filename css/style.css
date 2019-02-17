@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 html {
     box-sizing: border-box;
@@ -33,67 +33,68 @@ body {
 }
 
 .foot {
-    height: 120px;
+    display: flex;
+    align-items: center;
+    width: 1200px;
     background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
     bottom: 0px;
-    left: 352px; 
+    height: 121px;
 }
 .container {
+    position: relative;
     width: 1200px;
     margin: 0 auto;
     
 }
 .main-navigation {
     background-color: #ffffff;
+    height: 56px;
     /*display: block;*/
     
 }
 .info1 {
-    display: inline-block;
+    
     width: 239px;
-    height: 56px;
-    padding-top: 12px;
     padding-left: 72px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     padding-right: 74px;
-    text-align: center;
-    float: left;
 }
 .fhoto1 {
-    display: inline-block;
+    
     width: 239px;
-    height: 56px;
-    padding-top: 12px;
-    padding-right: 68px;
     padding-left: 73px;
-    margin-left: 244px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 68px;
+}
+.for-logo {
+    width: 244px;
 }
 .map1 {
-    display: inline-block;
-    width: 239px;
-    height: 56px;
-    padding-top: 12px;
-    padding-right: 73px;
+    
+    width: 239px;   
     padding-left: 76px;
-    float: left;         
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 73px;    
 }
 .hotels1 {
-    display: inline-block;
-    float: right;
+    
     width: 239px;
-    height: 56px;
-    padding-top: 12px;
-    padding-right: 72px;
     padding-left: 88px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 72px;
 }
 .container-navigation {
+    height: 56px;
     background-color: #ffffff;
-    width: 1200px;
-    height:56px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: nowrap;
     padding: 0px;
-    text-align: center;
+    margin: 0px;
 
 }
   
@@ -129,7 +130,6 @@ li {
 /*Шрифт слогана*/
 .description-town {
     width: 440px;
-    height: 48px;
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
@@ -158,7 +158,6 @@ li {
     position: absolute;
     width: 1px;
     height: 1px;
-   
     border: 0;
     padding: 0;
     white-space: nowrap;
@@ -187,10 +186,28 @@ li {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0px;
     width: 1000px;
     padding-top: 20px;
     text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
     }
+.advantages-selection2 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #333333; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 1000px;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 0px;
+}
 /*Шрифт окна поиска */
 .selection-button {
     font-family: "PT Sans", "Arial", sans-serif;
@@ -509,20 +526,22 @@ li {
     font-weight: bold;
     line-height: 1.24;
     color: #000000;
-    display: block;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 80px;
+    margin: 0px;
+    padding-left: 132px;
+    padding-top: 51px;
+    padding-bottom: 53px;
 }
 /*Копирайт*/
 .web-copyright {
-    position: absolute;
-    left: 898px;
-    top: 45px;
+    align-self: center;
+    width: 80px;
     font-size: 14px;
     font-weight: normal;
     line-height: 1.86;
-    color: #000000;  
+    color: #000000;
+    /*margin-left: 220px;*/
+    /*padding-top: 54px;
+    padding-top: 55px; */
 }
 .logo-sedona {
     display:block;
@@ -539,27 +558,55 @@ li {
 
 /*Footer*/
 
+.for-visit {
+    display: flex;
+    width: 268px;
+    margin: 0px;
+   
 
+}
 .footer-social {
-    position: absolute;
-    top: 20px;
-    left: 520px;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    padding: 0px;
+    margin-left: 256px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    
+}
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 197px;
+    margin-left: 228px;
+
 }
 .logo-footer {
+    margin-top: 10px;
     width: 115px;
     height: 41px;
-    position: absolute;
-    right: 101px;
-    top: 39px;
+   
 }
 .logo-footer:hover {fill: #81b3d2;}
 .logo-footer:active {fill: #bdbbbc;} 
+.link-footer {
+    align-self: flex-end;
+    /*padding-top: 39px;
+    padding-bottom: 40px;
+    padding-right: 101px;*/
+}
+
+
 /*Фон и лого Welcome*/
 .property-description {
     background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
-    height: 
+    
 }
 .main-welcom-fon {
     margin-left: auto;
@@ -573,13 +620,13 @@ li {
 }
 .polygon {
     position: absolute;
-    top: 772px;
+    top: 791px;
     width: 1201px;
     height: 59px;
 }
 .block-sedona {
     width: 1200px;
-    height: 216px;
+    /*height: 216px;*/
     background-color: #ffffff;
     display: block;
     margin-right: auto;
@@ -587,7 +634,7 @@ li {
 }
 .logo-welcom {
     width:auto;
-    height: auto;
+   /* height: auto;*/
     display:block;
     margin-right: auto;
     margin-left: auto;
@@ -596,7 +643,7 @@ li {
 }
 .white-fone-search {
     width: 1200px;
-    height: 291px;
+    /*height: 291px;*/
     background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
@@ -644,44 +691,37 @@ li {
     background-color: #f2f2f2;
 }
 .social-button-tw {
-    display: inline-block;
-    position:absolute;
-    left: 0px;
-    top: 0px;
+    
     background-image: url(../img/layer.jpg);
     width: 46px;
     height: 48px;
 }
 .socialT {
      position: absolute;
-     left: 15px;
-     top: 17px;
+     left: 539px;
+     top: 53px;
 }
 .social-button-fb {
-    position:absolute;
-    left: 50px;
-    top: 0px;
+   
     background-image: url(../img/layer.jpg);
     width: 46px;
     height: 48px;
 }
 .socialB {
      position: absolute;
-     left: 17px;
-     top: 13px;
+     left: 593px;
+     top: 49px;
 }
 .social-button-yt {
-    position:absolute;
-    left: 100px;
-    top: 0px;
+    
     background-image: url(../img/layer.jpg);
     width: 46px;
     height: 48px;
 }
 .socialYT {
      position: absolute;
-     left: 13px;
-     top: 16px;
+     left: 641px;
+     top: 52px;
 }
 .social-button-tw:hover {
     color: #adadadad;
@@ -697,80 +737,55 @@ li {
 
 /*HOTELS PAGE*/
 .directory-listing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 1200px;
     margin: 0 auto;
-}
-.housing-list {
-    width: 1200px;
-    margin: 0 auto;
-}
-.foot1 {
-    position: absolute;
-    bottom: 0px;
-    height: 120px;
-    background-color: rgba(255, 255, 255, 0.9);
-    left: 330px;
-}
 
+}
 .housing-list {
-   
+    width: 1200px;
+    margin: 0 auto;
     margin-top: 200px;
     padding-bottom: 150px;
-
 }
-.directory-listing {
+.directory-item1 {
+  margin-right: auto;
+}
+.directory-item2 {
     
-    padding: 0px;
+    margin-right: auto;
 }
-.directory-item {
-   position: relative;
-   margin-bottom: 60px;
+
+.directory-item3 {
+    margin-left: auto;
 }
 .type-hotel {
-    display: block;
-    position: absolute;
-    left: 180px;
-    bottom: 48px;
+    
 }
 .hotel-name {
-    display: block;
-    position: absolute;
-    left: 180px;
-    bottom: 75px;
+    
 }
 .type-price {
-    display: block;
-    position: absolute;
-    left: 300px;
-    bottom: 48px;
+   
 }
 .button-more {
-    display: block;
-    position: absolute;
-    left: 180px;
-    bottom: 5px;
+   
 }
 .button-reservation  {
-    display: block;
-    position: absolute;
-    left: 300px;
-    bottom: 5px;
+    
 }
 .star-hotel {
-    display: block;
-    position: absolute;
-    left: 932px;
-    bottom: 65px;
+    
 }
 .star-hotel-3 {
-    left: 950px;
+    
 }
 .star-hotel-2 {
-    left: 968px;
+    
 }
 .rating {
-    display: block;
-    position: absolute;
-    left: 900px;
-    bottom: 5px;
+    
     }
