@@ -440,6 +440,7 @@ li {
     border-bottom-width: 0px;
     border-right-width: 0px;
     border-top-width: 0px;
+    margin-bottom: 1px;
 }
 .button-reservation {
     font-family: "PT Sans", "Arial", sans-serif;
