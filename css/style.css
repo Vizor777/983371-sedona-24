@@ -34,7 +34,6 @@ body {
 
 .foot {
     display: flex;
-    align-items: center;
     width: 1200px;
     background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
@@ -43,47 +42,41 @@ body {
 }
 .foot-hotels {
     display: flex;
-    align-items: center;
     width: 1200px;
     background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
-    bottom: -150px;
+    bottom: -120px;
     height: 121px;
 }
 .container {
     position: relative;
     width: 1200px;
     margin: 0 auto;
-    
 }
 .main-navigation {
     position: relative;
     background-color: #ffffff;
-    height: 56px;
-    
-    
+    height: 56px;   
 }
 .info1 {
-    
     width: 239px;
     padding-left: 72px;
     padding-bottom: 15px;
     padding-top: 15px;
 }
-.fhoto1 {
-    
+.fhoto1 { 
     width: 239px;
     padding-left: 73px;
     padding-bottom: 15px;
     padding-top: 15px;
 }
-
 .map1 {
     text-align: right;
     width: 239px;   
     padding-bottom: 15px;
     padding-top: 15px;
-    padding-right: 73px;    
+    padding-right: 73px; 
+    margin-left: auto;   
 }
 .hotels1 {
     text-align: right;
@@ -287,7 +280,6 @@ li {
 
 .zone3 {
     display: inline-block;
-    /*margin-right: 55px;*/
 }
 .zone4 {
     display: inline-block;
@@ -343,6 +335,9 @@ li {
     line-height: 26px;
     text-align: left;
     color: #000000;
+    margin-bottom: 0px; 
+    margin-top: 0px; 
+    padding-bottom: 7px;
 }
 .type-price {
     font-size: 14px;
@@ -377,7 +372,8 @@ li {
     background-repeat: repeat; 
     height: 17px;
     width: 36px;
-    margin-left: 69px;
+    margin-top: 0px;
+    margin-left: auto;
 }
 .star-hotel-3 {
     background-image: url(../img/star.png);
@@ -385,7 +381,8 @@ li {
     background-repeat: repeat; 
     height: 17px;
     width: 54px;
-    margin-left: 51px;
+    margin-top: 0px;
+    margin-left: auto;
 }
 .star-hotel-4 {
     background-image: url(../img/star.png);
@@ -393,11 +390,10 @@ li {
     background-repeat: repeat; 
     height: 17px;
     width: 72px;
-    margin-left: 33px
+    margin-top: 0px;
+    margin-left: auto;
 
 }
-
-
 .hotel-name:hover {
     color: #81b3d2;
 }
@@ -531,14 +527,15 @@ li {
 .calendar:active {fill:  #81b3d2;} 
 /*Хэштег Седоны*/
 .visit {
+
     font-size: 21px;
     font-weight: bold;
     line-height: 1.24;
     color: #000000;
     margin: 0px;
-    padding-left: 132px;
     padding-top: 51px;
     padding-bottom: 53px;
+    padding-left: 132px;
 }
 /*Копирайт*/
 .web-copyright {
@@ -559,16 +556,11 @@ li {
     right: auto;
     z-index: 4;
 }
-.main-header-logo { 
-    
-    
-}
-
 /*Footer*/
 
 .for-visit {
     display: flex;
-    width: 268px;
+    width: 400px;
     margin: 0px;
    
 
@@ -579,19 +571,21 @@ li {
     justify-content: space-around;
     width: 150px;
     padding: 0px;
-    margin-left: 256px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 36px;
-    padding-bottom: 36px;
-    
+    padding-bottom: 35px; 
+}
+.social-block {
+    width: 400px;
 }
 .footer-copyright {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-self: center;
-    width: 197px;
-    margin-left: 228px;
+    width: 400px;
 
 }
 .logo-footer {
@@ -618,20 +612,18 @@ li {
     
 }
 .main-welcom-fon {
-    margin-left: auto;
-    margin-right: auto;
     background-image:  url("../img/background.jpg");
     background-position: top;
     background-repeat: no-repeat;
-    width: 1200px;
-    height: 800px;
-    
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    position: relative; 
 }
 .polygon {
     position: absolute;
-    top: 791px;
-    width: 1201px;
-    height: 59px;
+    left: 0;
+    bottom: 0px;
 }
 .block-sedona {
     width: 1200px;
@@ -640,15 +632,6 @@ li {
     display: block;
     margin-right: auto;
     margin-left: auto;      
-}
-.logo-welcom {
-    width:auto;
-   /* height: auto;*/
-    display:block;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 61px;
-    
 }
 .white-fone-search {
     width: 1200px;
@@ -707,7 +690,7 @@ li {
 }
 .socialT {
      position: absolute;
-     left: 539px;
+     left: 542px;
      top: 53px;
 }
 .social-button-fb {
@@ -729,7 +712,7 @@ li {
 }
 .socialYT {
      position: absolute;
-     left: 641px;
+     left: 640px;
      top: 52px;
 }
 .social-button-tw:hover {
@@ -747,29 +730,26 @@ li {
 /*HOTELS PAGE*/
 .directory-listing {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 1200px;
-    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-left: 72px;
+    padding-right: 72px;
 }
-
+hr {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.directory-item-image {
+    padding-top: 2px;
+    margin: 0px;
+}
 .housing-list {
-    
     width: 1200px;
     margin: 0 auto;
-    margin-top: 200px;
-    padding-bottom: 150px;
-}
-.directory-item1 {
-    margin-right: auto;
+    margin-top: 359px;
 }
 .directory-item2 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     margin-left: 20px;
     margin-bottom: 10px;
-    flex: 2;
     margin-right: auto;
 }
 .hotel-flex {
@@ -777,11 +757,13 @@ li {
     flex-direction: row;   
 }
 .directory-item3 {
-    flex: 1
     margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .type-hotel {
-    padding-bottom: 16px;
+    padding-bottom: 7px;
 }
 .type-price {
     padding-left: 53px;
