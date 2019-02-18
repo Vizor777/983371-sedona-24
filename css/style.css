@@ -41,6 +41,15 @@ body {
     bottom: 0px;
     height: 121px;
 }
+.foot-hotels {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    bottom: -150px;
+    height: 121px;
+}
 .container {
     position: relative;
     width: 1200px;
@@ -373,6 +382,7 @@ li {
     background-repeat: repeat; 
     height: 17px;
     width: 36px;
+    margin-left: 69px;
 }
 .star-hotel-3 {
     background-image: url(../img/star.png);
@@ -380,6 +390,7 @@ li {
     background-repeat: repeat; 
     height: 17px;
     width: 54px;
+    margin-left: 51px;
 }
 .star-hotel-4 {
     background-image: url(../img/star.png);
@@ -387,6 +398,8 @@ li {
     background-repeat: repeat; 
     height: 17px;
     width: 72px;
+    margin-left: 33px
+
 }
 
 
@@ -567,7 +580,8 @@ li {
 }
 .footer-social {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
     width: 150px;
     padding: 0px;
     margin-left: 256px;
@@ -738,54 +752,51 @@ li {
 /*HOTELS PAGE*/
 .directory-listing {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
     width: 1200px;
     margin: 0 auto;
-
 }
+
 .housing-list {
+    
     width: 1200px;
     margin: 0 auto;
     margin-top: 200px;
     padding-bottom: 150px;
 }
 .directory-item1 {
-  margin-right: auto;
-}
-.directory-item2 {
-    
     margin-right: auto;
 }
-
+.directory-item2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    flex: 2;
+    margin-right: auto;
+}
+.hotel-flex {
+    display: flex;
+    flex-direction: row;   
+}
 .directory-item3 {
+    flex: 1
     margin-left: auto;
 }
 .type-hotel {
-    
-}
-.hotel-name {
-    
+    padding-bottom: 16px;
 }
 .type-price {
-   
+    padding-left: 53px;
 }
-.button-more {
-   
+.type-price-3000 {
+    padding-left: 80px;
+}
+.type-price-2000 {
+    padding-left: 36px;
 }
 .button-reservation  {
-    
+    margin-left: 20px;
 }
-.star-hotel {
-    
-}
-.star-hotel-3 {
-    
-}
-.star-hotel-2 {
-    
-}
-.rating {
-    
-    }
