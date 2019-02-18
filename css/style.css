@@ -57,9 +57,10 @@ body {
     
 }
 .main-navigation {
+    position: relative;
     background-color: #ffffff;
     height: 56px;
-    /*display: block;*/
+    
     
 }
 .info1 {
@@ -68,7 +69,6 @@ body {
     padding-left: 72px;
     padding-bottom: 15px;
     padding-top: 15px;
-    padding-right: 74px;
 }
 .fhoto1 {
     
@@ -76,23 +76,18 @@ body {
     padding-left: 73px;
     padding-bottom: 15px;
     padding-top: 15px;
-    padding-right: 68px;
 }
-.for-logo {
-    width: 244px;
-}
+
 .map1 {
-    
+    text-align: right;
     width: 239px;   
-    padding-left: 76px;
     padding-bottom: 15px;
     padding-top: 15px;
     padding-right: 73px;    
 }
 .hotels1 {
-    
+    text-align: right;
     width: 239px;
-    padding-left: 88px;
     padding-bottom: 15px;
     padding-top: 15px;
     padding-right: 72px;
@@ -102,9 +97,9 @@ body {
     background-color: #ffffff;
     display: flex;
     flex-wrap: nowrap;
+    justify-content: space-between;
     padding: 0px;
     margin: 0px;
-
 }
   
  
@@ -559,15 +554,14 @@ li {
 }
 .logo-sedona {
     display:block;
-    position: relative;
+    position: absolute;
     left: 530px;
     right: auto;
-   
+    z-index: 4;
 }
 .main-header-logo { 
-    display:block;
-    position:absolute;
-    z-index: 4;
+    
+    
 }
 
 /*Footer*/
