@@ -432,6 +432,7 @@ li {
     border-right-width: 0px;
     border-top-width: 0px;
     margin-bottom: 1px;
+    padding-top: 5px;
 }
 .button-reservation {
     font-family: "PT Sans", "Arial", sans-serif;
@@ -448,6 +449,7 @@ li {
     border-bottom-width: 0px;
     border-right-width: 0px;
     border-top-width: 0px;
+    padding-top: 5px;
 }
 .button-more:hover {
     color: #ffffff;
@@ -521,10 +523,10 @@ li {
 .calendar {
     width: 21px;
     height: 22px;
-    color: #eeeeee;
+    fill: #cacaca;
 }
-.calendar:hover {fill:  #000000;}
-.calendar:active {fill:  #81b3d2;} 
+.calendar:hover {fill: #000000;}
+.calendar:active {fill: #81b3d2;} 
 /*Хэштег Седоны*/
 .visit {
 
@@ -586,21 +588,16 @@ li {
     justify-content: center;
     align-self: center;
     width: 400px;
-
 }
 .logo-footer {
     margin-top: 10px;
     width: 115px;
     height: 41px;
-   
 }
 .logo-footer:hover {fill: #81b3d2;}
 .logo-footer:active {fill: #bdbbbc;} 
 .link-footer {
     align-self: flex-end;
-    /*padding-top: 39px;
-    padding-bottom: 40px;
-    padding-right: 101px;*/
 }
 
 
@@ -750,7 +747,6 @@ hr {
 .directory-item2 {
     margin-left: 20px;
     margin-bottom: 10px;
-    margin-right: auto;
 }
 .hotel-flex {
     display: flex;
@@ -763,7 +759,7 @@ hr {
     justify-content: space-between;
 }
 .type-hotel {
-    padding-bottom: 7px;
+    padding-bottom: 11px;
 }
 .type-price {
     padding-left: 53px;
