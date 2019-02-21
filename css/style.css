@@ -30,28 +30,28 @@ body {
     text-transform: uppercase;
     box-sizing: border-box;
     position: relative;
+    background-color: #f2f2f2;
 }
-
 .foot {
     display: flex;
     width: 1200px;
     background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
     bottom: 0px;
-    height: 121px;
+    min-height: 121px;
 }
 .foot-hotels {
     display: flex;
     width: 1200px;
-    background-color: rgba(255, 255, 255, 0.9);
-    position: absolute;
-    bottom: -120px;
-    height: 121px;
+    min-height: 121px;
+    background-color: #ffffff;
 }
 .container {
     position: relative;
     width: 1200px;
     margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 15px 0;
 }
 .main-navigation {
     position: relative;
@@ -109,10 +109,7 @@ li {
 .site-navigation-section {
     font-size: 14px;
     font-weight: bold;
-    color: #000000;
-
-
-    
+    color: #000000;  
 }
 .site-navigation-section:hover {
     color: #81b3d2;
@@ -225,25 +222,52 @@ li {
 }
 /*Форма заполнения данных*/
 .form-zone {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    position: relative;
+}
+.font-zone {
     font-size: 14px;
     font-weight: bold;
     line-height: 26px;
     color: #000000;
-    align-self: flex-start;
 }
-.form-zone2 {
-    width: 200px;
-
+.form-zone-short {
+    margin-bottom: 54px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    position: relative;
 }
-.form-search1 {
+.form-search {
     width: 346px;
     height: 38px;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 0px;
+    padding-left: 13px;
+    padding-right: 36px;
+}
+.adult-label {
+    width: 86px;
+}
+.child-label {
+    padding-left: 27px;
 }
 .form-search2 {
     width: 114px;
     height: 38px;
+    padding-left: 38px;
+    padding-right: 38px;
     text-align: center;
-    
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 0px;
 }
 .hotel-name {
     font-size: 21px;
@@ -308,7 +332,6 @@ li {
     width: 72px;
     margin-top: 0px;
     margin-left: auto;
-
 }
 .hotel-name:hover {
     color: #81b3d2;
@@ -319,18 +342,13 @@ li {
 .button-date {
     display: block;
     position: absolute;
-    left: 420px;
-    top: 61px;
+    right: 0px;
+    top: 1px;
     background-color: #f2f2f2;
     border: 0px;
-} 
-.button-date2 {
-    display: block;
-    position: absolute;
-    left: 420px;
-    top: 35px;
-    background-color: #f2f2f2;
-    border: 0px;
+    padding-right: 9px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 } 
  .button-more {
     font-family: "PT Sans", "Arial", sans-serif;
@@ -414,9 +432,7 @@ li {
     border: none;
     margin-left: auto;
     margin-right: auto;
-    
 }
-    
 .find-button:hover {
     color: #ffffff;
     background-color: #4d94bf;
@@ -425,14 +441,6 @@ li {
     color: rgba(255, 255, 255, 0.3);
     background-color: #3c88b5;
 }
-.form-search {
-    background-color: #f2f2f2;
-    font-weight: bold;
-    text-transform: uppercase;
-    display: inline-block;
-    border: 0px;
-
-}
 .form-search:hover {
     background-color: #ebebeb;
 }
@@ -440,12 +448,12 @@ li {
     background-color: #ffffff;
 }
 .calendar {
-    width: 21px;
-    height: 22px;
     fill: #cacaca;
 }
 .calendar:hover {fill: #000000;}
 .calendar:active {fill: #81b3d2;} 
+
+
 /*Хэштег Седоны*/
 .visit {
 
@@ -466,9 +474,6 @@ li {
     font-weight: normal;
     line-height: 1.86;
     color: #000000;
-    /*margin-left: 220px;*/
-    /*padding-top: 54px;
-    padding-top: 55px; */
 }
 .logo-sedona {
     display:block;
@@ -483,21 +488,20 @@ li {
     display: flex;
     width: 400px;
     margin: 0px;
-   
-
+}
+ul.footer-social li {
+    margin: 3px;
 }
 .footer-social {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 150px;
-    padding: 0px;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-top: 36px;
-    padding-bottom: 35px; 
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 0px;
+    flex-wrap: wrap; 
 }
 .social-block {
     width: 400px;
@@ -525,7 +529,6 @@ li {
     background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
-    
 }
 .main-welcom-fon {
     background-image:  url("../img/background.jpg");
@@ -543,7 +546,6 @@ li {
 }
 .block-sedona {
     width: 1200px;
-    /*height: 216px;*/
     background-color: #ffffff;
     display: block;
     margin-right: auto;
@@ -551,7 +553,6 @@ li {
 }
 .white-fone-search {
     width: 1200px;
-    /*height: 291px;*/
     background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
@@ -561,34 +562,35 @@ li {
     margin-right: auto;
     width: 568px;
     background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    flex-wrap: wrap;
+    padding: 55px;
 }  
-
+.form-button {
+    margin: 0px;
+}
  .button-form {
     border: 0px;
  }
- 
-.button-minus1 {
+ .form-quantity {
+    position: relative;
+ }
+.button-minus {
     position: absolute;
-    left: 110px;
-    width: 38px;
-    height: 38px;
-    background-color: #f2f2f2;
-}
-.button-plus1 {
-    position: absolute;
-    top: 30px;
-    left: 185px;
+    left: 0px;
     width: 38px;
     height: 38px;
     background-color: #f2f2f2;
 }
 .button-minus2 {
     position: absolute;
-    left: 100px;
+    left: 344px;
+    width: 38px;
+    height: 38px;
+    background-color: #f2f2f2;
+}
+.button-plus {
+    position: absolute;
+    top: 0px;
+    right: 0px;
     width: 38px;
     height: 38px;
     background-color: #f2f2f2;
@@ -601,61 +603,64 @@ li {
     height: 38px;
     background-color: #f2f2f2;
 }
-.social-button-tw {
-    
-    background-image: url(../img/layer.jpg);
+.social-button {
+    position: relative;
+    background-color: #81b3d2; 
     width: 46px;
     height: 48px;
+    display: block;
+    fill: #ffffff;
 }
-.socialT {
-     position: absolute;
-     left: 542px;
-     top: 53px;
+.social-tw{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 17px;
+    height: 15px;
 }
-.social-button-fb {
-   
-    background-image: url(../img/layer.jpg);
-    width: 46px;
-    height: 48px;
+.social-f {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 22px;
 }
-.socialB {
-     position: absolute;
-     left: 593px;
-     top: 49px;
+.social-y {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 16px;
 }
-.social-button-yt {
-    
-    background-image: url(../img/layer.jpg);
-    width: 46px;
-    height: 48px;
+.social-button:hover {
+    background-color: #669ec0;
 }
-.socialYT {
-     position: absolute;
-     left: 640px;
-     top: 52px;
+.social-button:active {
+    background-color: #5496bd;
+    fill: rgb(255, 255, 255, 0.3);
 }
-.social-button-tw:hover {
-    color: #adadadad;
+.butmp {
+    stroke: #a9a9a9;
 }
-.social-button-tw:active {
-    color: #5496bd;
-}
-
-.butmp:hover {fill: #000000;}
-.butmp:active {fill: #81b3d2;}
-
+.butmp:hover {stroke: #000000;}
+.butmp:active {stroke: #81b3d2;}
 
 
 /*HOTELS PAGE*/
 .directory-listing {
     display: flex;
-    margin-bottom: 30px;
+    margin: 0px;
     padding-left: 72px;
     padding-right: 72px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(0, 1, 1, 0.2); 
 }
-hr {
-    margin-top: 0px;
-    margin-bottom: 30px;
+.directory-listing-border {
+     border-bottom: 1px solid rgba(0, 1, 1, 0.2); 
 }
 .directory-item-image {
     padding-top: 2px;
