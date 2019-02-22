@@ -5,9 +5,6 @@
 }
 html {
     box-sizing: border-box;
-    
-  
-
 }
 @font-face {
     font-family: 'PT Sans';           /* название одно */
@@ -37,8 +34,8 @@ body {
     width: 1200px;
     background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
-    bottom: 0px;
-    min-height: 121px;
+    bottom: -10px;
+    min-height: 131px;
 }
 .foot-hotels {
     display: flex;
@@ -62,27 +59,28 @@ body {
     width: 239px;
     padding-left: 72px;
     padding-bottom: 15px;
-    padding-top: 15px;
+    padding-top: 12px;
 }
 .fhoto1 { 
     width: 239px;
-    padding-left: 73px;
+    padding-left: 74px;
     padding-bottom: 15px;
-    padding-top: 15px;
+    padding-top: 12px;
 }
 .map1 {
     text-align: right;
     width: 239px;   
     padding-bottom: 15px;
-    padding-top: 15px;
+    padding-top: 12px;
     padding-right: 73px; 
-    margin-left: auto;   
+    margin-left: auto; 
+    letter-spacing: 0.59px;  
 }
 .hotels1 {
     text-align: right;
     width: 239px;
     padding-bottom: 15px;
-    padding-top: 15px;
+    padding-top: 12px;
     padding-right: 72px;
 }
 .container-navigation {
@@ -123,17 +121,16 @@ li {
 
 /*Шрифт слогана*/
 .description-town {
-    width: 440px;
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
     text-align: center;
     color: #000000;
     display:block; 
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 30px;
-    text-align:center;  
+    padding-left: 291px;
+    padding-right: 302px;
+    width: 1212px;
+    padding-top: 30px;
 }
 /*Шрифт причин*/
 .advantages {
@@ -143,9 +140,11 @@ li {
     line-height: 26px;
     color: #333333;
     display: block;
+    text-align: center;
+    padding-top: 25px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 38px;
+    
 }
 /*Скрытые заголовки*/
 .visually-hidden { 
@@ -169,7 +168,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     width: 800px;
-    padding-top: 20px;
+    padding-top: 57px;
     text-align: center;
 }
 .advantages-selection {
@@ -178,14 +177,10 @@ li {
     line-height: 24px;
     color: #333333; 
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
-    width: 1000px;
-    padding-top: 20px;
+    width: 1200px;
+    padding-top: 6px;
     text-align: center;
-    padding-left: 200px;
-    padding-right: 200px;
+
     }
 .advantages-selection2 {
     font-size: 14px;
@@ -216,7 +211,7 @@ li {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 70px;
+    margin-top: 49px;
     border: none;
 
 }
@@ -249,14 +244,20 @@ li {
     font-weight: bold;
     text-transform: uppercase;
     border: 0px;
-    padding-left: 13px;
+    padding-left: 12px;
     padding-right: 36px;
 }
+.data-in {
+
+    padding-left: 3px;
+
+}
 .adult-label {
-    width: 86px;
+    width: 99px;
 }
 .child-label {
-    padding-left: 27px;
+    margin-left: 38px;
+    width: 51px;
 }
 .form-search2 {
     width: 114px;
@@ -403,10 +404,10 @@ li {
 }
 .date-selection-map {
     width: 1200px;
-    min-height: 593px;
+    min-height: 588px;
     background-image: url("../img/map.jpg");
     background-size: 1200px 593px;
-    background-position: top;
+    background-position: center;
     margin-left: auto;
     margin-right: auto;
 } 
@@ -462,18 +463,22 @@ li {
     line-height: 1.24;
     color: #000000;
     margin: 0px;
-    padding-top: 51px;
-    padding-bottom: 53px;
+    padding-top: 48px;
     padding-left: 132px;
 }
 /*Копирайт*/
 .web-copyright {
     align-self: center;
-    width: 80px;
+    width: 91px;
     font-size: 14px;
     font-weight: normal;
     line-height: 1.86;
     color: #000000;
+    padding-bottom: 13px;
+    padding-left: 8px;
+
+    margin-bottom: 1px;
+
 }
 .logo-sedona {
     display:block;
@@ -513,43 +518,57 @@ ul.footer-social li {
     width: 400px;
 }
 .logo-footer {
-    margin-top: 10px;
     width: 115px;
     height: 41px;
 }
 .logo-footer:hover {fill: #81b3d2;}
 .logo-footer:active {fill: #bdbbbc;} 
 .link-footer {
-    align-self: flex-end;
+    
+    padding-left: 0px;
+    width: 120px;
+    height: 50px;
+    
+
 }
 
 
 /*Фон и лого Welcome*/
 .property-description {
-    background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
 }
+.point {
+    width: 1200px;
+    min-height: 1148px;
+}
 .main-welcom-fon {
     background-image:  url("../img/background.jpg");
-    background-position: top;
+    background-position: 50% 21%;
     background-repeat: no-repeat;
     text-align: center;
     padding-top: 60px;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
+    height: 508px;
     position: relative; 
+}
+.welcom-fone {
+    height: 367px;
+    width: 456px;
+    padding-top: 17px;
 }
 .polygon {
     position: absolute;
     left: 0;
-    bottom: 0px;
+    bottom: 0%;
 }
 .block-sedona {
     width: 1200px;
-    background-color: #ffffff;
-    display: block;
     margin-right: auto;
-    margin-left: auto;      
+    margin-left: auto; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 32px;
 }
 .white-fone-search {
     width: 1200px;
@@ -562,7 +581,7 @@ ul.footer-social li {
     margin-right: auto;
     width: 568px;
     background-color: white;
-    padding: 55px;
+    padding: 54px;
 }  
 .form-button {
     margin: 0px;
