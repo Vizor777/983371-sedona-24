@@ -41,6 +41,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     bottom: -10px;
     min-height: 131px;
 =======
@@ -63,6 +64,10 @@ body {
     bottom: 0px;
     min-height: 121px;
 >>>>>>> parent of 5a0b766... ПП.
+=======
+    bottom: 0px;
+    min-height: 121px;
+>>>>>>> parent of 1e133f6... Проба
 }
 .foot-hotels {
     display: flex;
@@ -90,12 +95,17 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-top: 12px;
+=======
+    padding-top: 15px;
+>>>>>>> parent of 1e133f6... Проба
 }
 .fhoto1 { 
     width: 239px;
-    padding-left: 74px;
+    padding-left: 73px;
     padding-bottom: 15px;
+<<<<<<< HEAD
     padding-top: 12px;
 =======
     padding-top: 15px;
@@ -130,6 +140,9 @@ body {
 =======
     padding-top: 15px;
 >>>>>>> parent of 5a0b766... ПП.
+=======
+    padding-top: 15px;
+>>>>>>> parent of 1e133f6... Проба
 }
 .map1 {
     text-align: right;
@@ -141,6 +154,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-left: auto; 
     letter-spacing: 0.59px;  
 =======
@@ -157,6 +171,9 @@ body {
 =======
     margin-left: auto;   
 >>>>>>> parent of 5a0b766... ПП.
+=======
+    margin-left: auto;   
+>>>>>>> parent of 1e133f6... Проба
 }
 .hotels1 {
     text-align: right;
@@ -166,6 +183,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-top: 12px;
 =======
     padding-top: 15px;
@@ -180,6 +198,9 @@ body {
 =======
     padding-top: 15px;
 >>>>>>> parent of 5a0b766... ПП.
+=======
+    padding-top: 15px;
+>>>>>>> parent of 1e133f6... Проба
     padding-right: 72px;
 }
 .container-navigation {
@@ -231,6 +252,7 @@ li {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-left: 291px;
     padding-right: 302px;
     width: 1212px;
@@ -242,10 +264,13 @@ li {
 >>>>>>> parent of 5a0b766... ПП.
 =======
 >>>>>>> parent of 5a0b766... ПП.
+=======
+>>>>>>> parent of 1e133f6... Проба
     margin-right: auto;
     margin-left: auto;
     margin-top: 30px;
     text-align:center;  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -262,6 +287,8 @@ li {
 >>>>>>> parent of 5a0b766... ПП.
 =======
 >>>>>>> parent of 5a0b766... ПП.
+=======
+>>>>>>> parent of 1e133f6... Проба
 }
 /*Шрифт причин*/
 .advantages {
@@ -271,6 +298,7 @@ li {
     line-height: 26px;
     color: #333333;
     display: block;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -308,6 +336,11 @@ li {
     margin-right: auto;
     margin-top: 38px;
 >>>>>>> parent of 5a0b766... ПП.
+=======
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 38px;
+>>>>>>> parent of 1e133f6... Проба
 }
 /*Скрытые заголовки*/
 .visually-hidden { 
@@ -335,6 +368,7 @@ li {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-top: 57px;
 =======
     padding-top: 20px;
@@ -348,6 +382,9 @@ li {
 
     padding-top: 20px;
 
+=======
+    padding-top: 20px;
+>>>>>>> parent of 1e133f6... Проба
     text-align: center;
 }
 .advantages-selection {
@@ -356,6 +393,7 @@ li {
     line-height: 24px;
     color: #333333; 
     display: block;
+<<<<<<< HEAD
 
     width: 1200px;
     padding-top: 6px;
@@ -367,11 +405,14 @@ li {
 >>>>>>> parent of 5a0b766... ПП.
 =======
 >>>>>>> parent of 5a0b766... ПП.
+=======
+>>>>>>> parent of 1e133f6... Проба
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
     width: 1000px;
     padding-top: 20px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -386,6 +427,8 @@ li {
 >>>>>>> parent of 5a0b766... ПП.
 =======
 >>>>>>> parent of 5a0b766... ПП.
+=======
+>>>>>>> parent of 1e133f6... Проба
     text-align: center;
     padding-left: 200px;
     padding-right: 200px;
@@ -423,6 +466,7 @@ li {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-top: 49px;
 =======
     margin-top: 70px;
@@ -438,6 +482,9 @@ li {
 =======
     margin-top: 70px;
 >>>>>>> parent of 5a0b766... ПП.
+=======
+    margin-top: 70px;
+>>>>>>> parent of 1e133f6... Проба
     border: none;
 
 }
@@ -477,6 +524,7 @@ li {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 .label-1 {
     padding-left: 2px;
@@ -502,6 +550,8 @@ li {
 >>>>>>> parent of 5a0b766... ПП.
 =======
 >>>>>>> parent of 5a0b766... ПП.
+=======
+>>>>>>> parent of 1e133f6... Проба
 .adult-label {
     width: 86px;
 }
@@ -716,6 +766,7 @@ li {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-top: 48px;
 =======
     padding-top: 51px;
@@ -734,11 +785,16 @@ li {
     padding-top: 51px;
     padding-bottom: 53px;
 >>>>>>> parent of 5a0b766... ПП.
+=======
+    padding-top: 51px;
+    padding-bottom: 53px;
+>>>>>>> parent of 1e133f6... Проба
     padding-left: 132px;
 }
 /*Копирайт*/
 .web-copyright {
     align-self: center;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -759,10 +815,14 @@ li {
 =======
     width: 80px;
 >>>>>>> parent of 5a0b766... ПП.
+=======
+    width: 80px;
+>>>>>>> parent of 1e133f6... Проба
     font-size: 14px;
     font-weight: normal;
     line-height: 1.86;
     color: #000000;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -787,6 +847,8 @@ li {
 >>>>>>> parent of 5a0b766... ПП.
 =======
 >>>>>>> parent of 5a0b766... ПП.
+=======
+>>>>>>> parent of 1e133f6... Проба
 }
 .logo-sedona {
     display:block;
@@ -837,6 +899,7 @@ ul.footer-social li {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
     padding-left: 0px;
     width: 120px;
@@ -865,6 +928,9 @@ ul.footer-social li {
 =======
     align-self: flex-end;
 >>>>>>> parent of 5a0b766... ПП.
+=======
+    align-self: flex-end;
+>>>>>>> parent of 1e133f6... Проба
 }
 
 
@@ -880,6 +946,7 @@ ul.footer-social li {
     background-repeat: no-repeat;
     text-align: center;
     padding-top: 60px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -900,6 +967,9 @@ ul.footer-social li {
 =======
     padding-bottom: 100px;
 >>>>>>> parent of 5a0b766... ПП.
+=======
+    padding-bottom: 100px;
+>>>>>>> parent of 1e133f6... Проба
     position: relative; 
 }
 .polygon {
@@ -912,6 +982,7 @@ ul.footer-social li {
     background-color: #ffffff;
     display: block;
     margin-right: auto;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -941,6 +1012,9 @@ ul.footer-social li {
 =======
     margin-left: auto;      
 >>>>>>> parent of 5a0b766... ПП.
+=======
+    margin-left: auto;      
+>>>>>>> parent of 1e133f6... Проба
 }
 .white-fone-search {
     width: 1200px;
@@ -953,6 +1027,7 @@ ul.footer-social li {
     margin-right: auto;
     width: 568px;
     background-color: white;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -974,6 +1049,9 @@ ul.footer-social li {
 =======
     padding: 55px;
 >>>>>>> parent of 5a0b766... ПП.
+=======
+    padding: 55px;
+>>>>>>> parent of 1e133f6... Проба
 }  
 .form-button {
     margin: 0px;
