@@ -40,6 +40,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     bottom: -10px;
     min-height: 131px;
 =======
@@ -54,6 +55,10 @@ body {
     min-height: 131px;
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    bottom: 0px;
+    min-height: 121px;
+>>>>>>> parent of 5a0b766... ПП.
 =======
     bottom: 0px;
     min-height: 121px;
@@ -80,6 +85,7 @@ body {
 .info1 {
     width: 239px;
     padding-left: 72px;
+<<<<<<< HEAD
     padding-bottom: 15px;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100,11 +106,16 @@ body {
 =======
     padding-top: 15px;
 >>>>>>> parent of 5a0b766... ПП.
+=======
+    padding-bottom: 15px;
+    padding-top: 15px;
+>>>>>>> parent of 5a0b766... ПП.
 }
 .fhoto1 { 
     width: 239px;
     padding-left: 73px;
     padding-bottom: 15px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     padding-top: 15px;
@@ -113,6 +124,9 @@ body {
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
     padding-top: 12px;
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    padding-top: 15px;
+>>>>>>> parent of 5a0b766... ПП.
 =======
     padding-top: 15px;
 >>>>>>> parent of 5a0b766... ПП.
@@ -126,6 +140,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-left: auto; 
     letter-spacing: 0.59px;  
 =======
@@ -136,6 +151,9 @@ body {
     letter-spacing: 0.59px;  
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    margin-left: auto;   
+>>>>>>> parent of 5a0b766... ПП.
 =======
     margin-left: auto;   
 >>>>>>> parent of 5a0b766... ПП.
@@ -147,6 +165,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-top: 12px;
 =======
     padding-top: 15px;
@@ -155,6 +174,9 @@ body {
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
     padding-top: 12px;
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    padding-top: 15px;
+>>>>>>> parent of 5a0b766... ПП.
 =======
     padding-top: 15px;
 >>>>>>> parent of 5a0b766... ПП.
@@ -208,6 +230,7 @@ li {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-left: 291px;
     padding-right: 302px;
     width: 1212px;
@@ -217,10 +240,13 @@ li {
 >>>>>>> parent of 0a2ea58... Revert "ПП."
 =======
 >>>>>>> parent of 5a0b766... ПП.
+=======
+>>>>>>> parent of 5a0b766... ПП.
     margin-right: auto;
     margin-left: auto;
     margin-top: 30px;
     text-align:center;  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of 5a0b766... ПП.
@@ -234,6 +260,8 @@ li {
 >>>>>>> parent of 0a2ea58... Revert "ПП."
 =======
 >>>>>>> parent of 5a0b766... ПП.
+=======
+>>>>>>> parent of 5a0b766... ПП.
 }
 /*Шрифт причин*/
 .advantages {
@@ -243,6 +271,7 @@ li {
     line-height: 26px;
     color: #333333;
     display: block;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -274,6 +303,11 @@ li {
     margin-right: auto;
     margin-top: 38px;
 >>>>>>> parent of 5a0b766... ПП.
+=======
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 38px;
+>>>>>>> parent of 5a0b766... ПП.
 }
 /*Скрытые заголовки*/
 .visually-hidden { 
@@ -300,6 +334,7 @@ li {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-top: 57px;
 =======
     padding-top: 20px;
@@ -310,6 +345,9 @@ li {
     padding-top: 57px;
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    padding-top: 20px;
+>>>>>>> parent of 5a0b766... ПП.
 =======
     padding-top: 20px;
 >>>>>>> parent of 5a0b766... ПП.
@@ -324,12 +362,15 @@ li {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1200px;
     padding-top: 6px;
 =======
 =======
     width: 1000px;
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+>>>>>>> parent of 5a0b766... ПП.
 =======
 >>>>>>> parent of 5a0b766... ПП.
     margin-left: auto;
@@ -339,6 +380,7 @@ li {
     padding-top: 20px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 5a0b766... ПП.
 =======
 =======
@@ -346,6 +388,8 @@ li {
     padding-top: 6px;
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+>>>>>>> parent of 5a0b766... ПП.
 =======
 >>>>>>> parent of 5a0b766... ПП.
     text-align: center;
@@ -384,6 +428,7 @@ li {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-top: 49px;
 =======
     margin-top: 70px;
@@ -393,6 +438,9 @@ li {
     margin-top: 49px;
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    margin-top: 70px;
+>>>>>>> parent of 5a0b766... ПП.
 =======
     margin-top: 70px;
 >>>>>>> parent of 5a0b766... ПП.
@@ -434,6 +482,7 @@ li {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 .label-1 {
     padding-left: 2px;
@@ -455,6 +504,8 @@ li {
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 }
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+>>>>>>> parent of 5a0b766... ПП.
 =======
 >>>>>>> parent of 5a0b766... ПП.
 .adult-label {
@@ -670,6 +721,7 @@ li {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-top: 48px;
 =======
     padding-top: 51px;
@@ -684,11 +736,16 @@ li {
     padding-top: 51px;
     padding-bottom: 53px;
 >>>>>>> parent of 5a0b766... ПП.
+=======
+    padding-top: 51px;
+    padding-bottom: 53px;
+>>>>>>> parent of 5a0b766... ПП.
     padding-left: 132px;
 }
 /*Копирайт*/
 .web-copyright {
     align-self: center;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -705,10 +762,14 @@ li {
 =======
     width: 80px;
 >>>>>>> parent of 5a0b766... ПП.
+=======
+    width: 80px;
+>>>>>>> parent of 5a0b766... ПП.
     font-size: 14px;
     font-weight: normal;
     line-height: 1.86;
     color: #000000;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -728,6 +789,8 @@ li {
 =======
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+>>>>>>> parent of 5a0b766... ПП.
 =======
 >>>>>>> parent of 5a0b766... ПП.
 }
@@ -779,6 +842,7 @@ ul.footer-social li {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
     padding-left: 0px;
     width: 120px;
@@ -804,6 +868,9 @@ ul.footer-social li {
 =======
     align-self: flex-end;
 >>>>>>> parent of 5a0b766... ПП.
+=======
+    align-self: flex-end;
+>>>>>>> parent of 5a0b766... ПП.
 }
 
 
@@ -822,6 +889,7 @@ ul.footer-social li {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-bottom: 0px;
     height: 508px;
 =======
@@ -832,6 +900,9 @@ ul.footer-social li {
     height: 508px;
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    padding-bottom: 100px;
+>>>>>>> parent of 5a0b766... ПП.
 =======
     padding-bottom: 100px;
 >>>>>>> parent of 5a0b766... ПП.
@@ -847,6 +918,7 @@ ul.footer-social li {
     background-color: #ffffff;
     display: block;
     margin-right: auto;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -872,6 +944,9 @@ ul.footer-social li {
 =======
     margin-left: auto;      
 >>>>>>> parent of 5a0b766... ПП.
+=======
+    margin-left: auto;      
+>>>>>>> parent of 5a0b766... ПП.
 }
 .white-fone-search {
     width: 1200px;
@@ -887,6 +962,7 @@ ul.footer-social li {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding: 54px;
 =======
     padding: 55px;
@@ -898,6 +974,9 @@ ul.footer-social li {
 =======
     padding: 54px;
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    padding: 55px;
+>>>>>>> parent of 5a0b766... ПП.
 =======
     padding: 55px;
 >>>>>>> parent of 5a0b766... ПП.
