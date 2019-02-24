@@ -5,6 +5,9 @@
 }
 html {
     box-sizing: border-box;
+    
+  
+
 }
 @font-face {
     font-family: 'PT Sans';           /* название одно */
@@ -36,6 +39,7 @@ body {
     position: absolute;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     bottom: -10px;
     min-height: 131px;
 =======
@@ -50,21 +54,23 @@ body {
     min-height: 131px;
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    bottom: 0px;
+    min-height: 121px;
+>>>>>>> parent of 5a0b766... ПП.
 }
 .foot-hotels {
     display: flex;
     width: 1200px;
     min-height: 121px;
     background-color: #ffffff;
-     position: absolute;
-    bottom: -122px;
 }
 .container {
     position: relative;
     width: 1200px;
     margin: 0 auto;
     background-color: #ffffff;
-    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    box-shadow: 0px 5px 15px 0;
 }
 .main-navigation {
     position: relative;
@@ -74,10 +80,8 @@ body {
 .info1 {
     width: 239px;
     padding-left: 72px;
-<<<<<<< HEAD
-    padding-bottom: 14px;
-=======
     padding-bottom: 15px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     padding-top: 12px;
@@ -93,14 +97,15 @@ body {
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
     padding-top: 12px;
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    padding-top: 15px;
+>>>>>>> parent of 5a0b766... ПП.
 }
 .fhoto1 { 
     width: 239px;
-    padding-left: 74px;
-<<<<<<< HEAD
-    padding-bottom: 14px;
-=======
+    padding-left: 73px;
     padding-bottom: 15px;
+<<<<<<< HEAD
 <<<<<<< HEAD
     padding-top: 15px;
 >>>>>>> parent of 5a0b766... ПП.
@@ -108,19 +113,17 @@ body {
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
     padding-top: 12px;
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    padding-top: 15px;
+>>>>>>> parent of 5a0b766... ПП.
 }
 .map1 {
     text-align: right;
     width: 239px;   
-<<<<<<< HEAD
-    padding-bottom: 14px;
-    padding-top: 12px;
-    padding-right: 77px; 
-    margin-left: auto;   
-=======
     padding-bottom: 15px;
-    padding-top: 12px;
+    padding-top: 15px;
     padding-right: 73px; 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     margin-left: auto; 
@@ -133,14 +136,15 @@ body {
     letter-spacing: 0.59px;  
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    margin-left: auto;   
+>>>>>>> parent of 5a0b766... ПП.
 }
 .hotels1 {
     text-align: right;
     width: 239px;
-<<<<<<< HEAD
-    padding-bottom: 14px;
-=======
     padding-bottom: 15px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     padding-top: 12px;
@@ -151,6 +155,9 @@ body {
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
     padding-top: 12px;
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    padding-top: 15px;
+>>>>>>> parent of 5a0b766... ПП.
     padding-right: 72px;
 }
 .container-navigation {
@@ -191,12 +198,14 @@ li {
 
 /*Шрифт слогана*/
 .description-town {
+    width: 440px;
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
     text-align: center;
     color: #000000;
     display:block; 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     padding-left: 291px;
@@ -206,10 +215,13 @@ li {
 =======
 =======
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+>>>>>>> parent of 5a0b766... ПП.
     margin-right: auto;
     margin-left: auto;
-    margin-top: 21px;
+    margin-top: 30px;
     text-align:center;  
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of 5a0b766... ПП.
 =======
@@ -220,6 +232,8 @@ li {
     padding-top: 30px;
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+>>>>>>> parent of 5a0b766... ПП.
 }
 /*Шрифт причин*/
 .advantages {
@@ -229,6 +243,7 @@ li {
     line-height: 26px;
     color: #333333;
     display: block;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     text-align: center;
@@ -254,6 +269,11 @@ li {
     
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 38px;
+>>>>>>> parent of 5a0b766... ПП.
 }
 /*Скрытые заголовки*/
 .visually-hidden { 
@@ -267,9 +287,6 @@ li {
     clip: rect(0 0 0 0);
     overflow: hidden;
     }
-.hotel-search {
-    margin-top: 1147px;
-}
 /*Шрифт формы заказа*/
 .trip-selection {
     font-size: 30px;
@@ -282,6 +299,7 @@ li {
     width: 800px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-top: 57px;
 =======
     padding-top: 20px;
@@ -292,6 +310,9 @@ li {
     padding-top: 57px;
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    padding-top: 20px;
+>>>>>>> parent of 5a0b766... ПП.
     text-align: center;
 }
 .advantages-selection {
@@ -302,17 +323,21 @@ li {
     display: block;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1200px;
     padding-top: 6px;
 =======
 =======
     width: 1000px;
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+>>>>>>> parent of 5a0b766... ПП.
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
-    margin-top: 0px;
+    width: 1000px;
     padding-top: 20px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of 5a0b766... ПП.
 =======
@@ -321,8 +346,11 @@ li {
     padding-top: 6px;
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+>>>>>>> parent of 5a0b766... ПП.
     text-align: center;
-
+    padding-left: 200px;
+    padding-right: 200px;
     }
 .advantages-selection2 {
     font-size: 14px;
@@ -355,6 +383,7 @@ li {
     margin-right: auto;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-top: 49px;
 =======
     margin-top: 70px;
@@ -364,31 +393,19 @@ li {
     margin-top: 49px;
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    margin-top: 70px;
+>>>>>>> parent of 5a0b766... ПП.
     border: none;
-    padding-top: 3px;
-    padding-bottom: 0px;
-    padding-left: 1px;
-    padding-right: 0px;
-    margin-top: 47px;
+
 }
 /*Форма заполнения данных*/
 .form-zone {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 28px;
-    margin-top: 0px;
-    padding-top: 2px;
-    position: relative;
-}
-/*Форма заполнения данных*/
-.form-zone-2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
     margin-bottom: 30px;
     margin-top: 0px;
-    padding-top: 1px;
     position: relative;
 }
 .font-zone {
@@ -411,9 +428,10 @@ li {
     font-weight: bold;
     text-transform: uppercase;
     border: 0px;
-    padding-left: 12px;
+    padding-left: 13px;
     padding-right: 36px;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -437,12 +455,13 @@ li {
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 }
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+>>>>>>> parent of 5a0b766... ПП.
 .adult-label {
-    width: 99px;
+    width: 86px;
 }
 .child-label {
-    margin-left: 38px;
-    width: 51px;
+    padding-left: 27px;
 }
 .form-search2 {
     width: 114px;
@@ -463,32 +482,8 @@ li {
     color: #000000;
     margin-bottom: 0px; 
     margin-top: 0px; 
-    padding-bottom: 4px;
-    padding-right: 0px;
+    padding-bottom: 7px;
 }
-.hotel-name-2 {
-    font-size: 21px;
-    font-weight: bold;
-    line-height: 26px;
-    text-align: left;
-    color: #000000;
-    margin-bottom: 0px; 
-    margin-top: 0px; 
-    padding-bottom: 4px;
-    padding-right: 0px;
-}
-.hotel-name-3 {
-    font-size: 21px;
-    font-weight: bold;
-    line-height: 26px;
-    text-align: left;
-    color: #000000;
-    margin-bottom: 0px; 
-    margin-top: 0px; 
-    padding-bottom: 2px;
-    padding-right: 0px;
-}
-
 .type-price {
     font-size: 14px;
     font-weight: normal;
@@ -502,7 +497,6 @@ li {
     line-height: 21px;
     text-align: left;
     color: #333333;
-    padding-bottom: 13px;
 }
 .rating {
     font-size: 14px;
@@ -511,14 +505,10 @@ li {
     text-align: right;
     color: #666666;
     background-color: #f2f2f2;
-    
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 16px;
-    width: 106px;
-    padding-top: 0px;
-    margin-bottom: 13px;
-
+    padding-left: 13px;
+    padding-bottom: 3px;
+    padding-right: 12px;
+    padding-top: 5px;
 }
 
 .star-hotel-2 {
@@ -542,7 +532,7 @@ li {
 .star-hotel-4 {
     background-image: url(../img/star.png);
     background-size:  18px, 17px;
-    background-repeat: repeat-x; 
+    background-repeat: repeat; 
     height: 17px;
     width: 72px;
     margin-top: 0px;
@@ -559,49 +549,13 @@ li {
     position: absolute;
     right: 0px;
     top: 1px;
+    background-color: #f2f2f2;
     border: 0px;
     padding-right: 9px;
-    padding-top: 8px;
-    padding-bottom: 4px;
-    background-color: transparent; 
+    padding-top: 6px;
+    padding-bottom: 6px;
 } 
  .button-more {
-    font-family: "PT Sans", "Arial", sans-serif;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 21px;
-    text-align: center;
-    color: #ffffff;
-    width: 110px;
-    height: 27px;
-    background-color: #81b3d2;
-    border-left-width: 0px;
-    border-bottom-width: 0px;
-    border-right-width: 0px;
-    border-top-width: 0px;
-    margin-bottom: 1px;
-    padding-top: 5px;
-}
-.button-more-2 {
-    font-family: "PT Sans", "Arial", sans-serif;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 21px;
-    text-align: center;
-    color: #ffffff;
-    width: 110px;
-    height: 27px;
-    background-color: #81b3d2;
-    border-left-width: 0px;
-    border-bottom-width: 0px;
-    border-right-width: 0px;
-    border-top-width: 0px;
-    margin-bottom: 1px;
-    padding-top: 4px;
-}
-.button-more-3 {
     font-family: "PT Sans", "Arial", sans-serif;
     text-transform: uppercase;
     font-size: 14px;
@@ -634,8 +588,7 @@ li {
     border-bottom-width: 0px;
     border-right-width: 0px;
     border-top-width: 0px;
-    padding-top: 6px;
-    padding-left: 2px;
+    padding-top: 5px;
 }
 .button-more:hover {
     color: #ffffff;
@@ -655,10 +608,10 @@ li {
 }
 .date-selection-map {
     width: 1200px;
-    min-height: 588px;
+    min-height: 593px;
     background-image: url("../img/map.jpg");
     background-size: 1200px 593px;
-    background-position: center;
+    background-position: top;
     margin-left: auto;
     margin-right: auto;
 } 
@@ -684,7 +637,6 @@ li {
     border: none;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 2px;
 }
 .find-button:hover {
     color: #ffffff;
@@ -717,6 +669,7 @@ li {
     margin: 0px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-top: 48px;
 =======
     padding-top: 51px;
@@ -727,13 +680,16 @@ li {
     padding-top: 48px;
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    padding-top: 51px;
+    padding-bottom: 53px;
+>>>>>>> parent of 5a0b766... ПП.
     padding-left: 132px;
-    padding-bottom: 0px;
-    padding-top: 40px;
 }
 /*Копирайт*/
 .web-copyright {
     align-self: center;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     width: 91px;
@@ -746,10 +702,14 @@ li {
     width: 91px;
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    width: 80px;
+>>>>>>> parent of 5a0b766... ПП.
     font-size: 14px;
     font-weight: normal;
     line-height: 1.86;
     color: #000000;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -768,6 +728,8 @@ li {
 =======
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+>>>>>>> parent of 5a0b766... ПП.
 }
 .logo-sedona {
     display:block;
@@ -776,17 +738,12 @@ li {
     right: auto;
     z-index: 4;
 }
-.sedona-img {
-    padding-bottom: 2px;
-}
 /*Footer*/
 
 .for-visit {
     display: flex;
     width: 400px;
     margin: 0px;
-    padding-bottom: 0px;
-    padding-top: 10px;
 }
 ul.footer-social li {
     margin: 3px;
@@ -797,34 +754,29 @@ ul.footer-social li {
     justify-content: center;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-top: 33px;
+    padding-bottom: 33px;
     padding-left: 0px;
-    padding-bottom: 0px;
-    padding-top: 35px;
     flex-wrap: wrap; 
 }
 .social-block {
     width: 400px;
-
-    padding-top: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 35px;
-
 }
 .footer-copyright {
     display: flex;
     justify-content: center;
     align-self: center;
     width: 400px;
-    padding-bottom: 22px;
 }
 .logo-footer {
+    margin-top: 10px;
     width: 115px;
     height: 41px;
 }
 .logo-footer:hover {fill: #81b3d2;}
 .logo-footer:active {fill: #bdbbbc;} 
 .link-footer {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     
@@ -849,28 +801,25 @@ ul.footer-social li {
 
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    align-self: flex-end;
+>>>>>>> parent of 5a0b766... ПП.
 }
 
 
 /*Фон и лого Welcome*/
 .property-description {
+    background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
 }
-.point {
-    width: 1200px;
-    min-height: 1148px;
-}
 .main-welcom-fon {
     background-image:  url("../img/background.jpg");
-    background-position: 50% 21%;
+    background-position: top;
     background-repeat: no-repeat;
     text-align: center;
-<<<<<<< HEAD
-    padding-top: 75px;
-    padding-bottom: 73px;
-=======
     padding-top: 60px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     padding-bottom: 0px;
@@ -883,21 +832,22 @@ ul.footer-social li {
     height: 508px;
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    padding-bottom: 100px;
+>>>>>>> parent of 5a0b766... ПП.
     position: relative; 
-}
-.welcom-fone {
-    height: 367px;
-    width: 456px;
-    padding-top: 17px;
 }
 .polygon {
     position: absolute;
     left: 0;
-    bottom: 0%;
+    bottom: 0px;
 }
 .block-sedona {
     width: 1200px;
+    background-color: #ffffff;
+    display: block;
     margin-right: auto;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     margin-left: auto; 
@@ -919,6 +869,9 @@ ul.footer-social li {
     padding-top: 32px;
 >>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    margin-left: auto;      
+>>>>>>> parent of 5a0b766... ПП.
 }
 .white-fone-search {
     width: 1200px;
@@ -933,6 +886,7 @@ ul.footer-social li {
     background-color: white;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding: 54px;
 =======
     padding: 55px;
@@ -944,8 +898,10 @@ ul.footer-social li {
 =======
     padding: 54px;
 >>>>>>> parent of 0a2ea58... Revert "ПП."
+=======
+    padding: 55px;
+>>>>>>> parent of 5a0b766... ПП.
 }  
->>>>>>> 1e133f6dd151a5efc14b90d0e6315cfa23b64607
 .form-button {
     margin: 0px;
 }
@@ -1032,42 +988,17 @@ ul.footer-social li {
 
 
 /*HOTELS PAGE*/
-.directory-listing-1 {
+.directory-listing {
     display: flex;
     margin: 0px;
     padding-left: 72px;
     padding-right: 72px;
-    padding-bottom: 19px;
-    padding-top: 28px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     border-top: 1px solid rgba(0, 1, 1, 0.2); 
 }
-.directory-listing-2 {
-    display: flex;
-    margin: 0px;
-    padding-left: 72px;
-    padding-right: 72px;
-    padding-top: 28px;
-    padding-bottom: 21px;
-    border-top: 1px solid rgba(0, 1, 1, 0.2); 
-}
-.directory-listing-3 {
-    display: flex;
-    margin: 0px;
-    padding-left: 72px;
-    padding-right: 72px;
-    padding-top: 26px;
-    padding-bottom: 21px;
-    border-top: 1px solid rgba(0, 1, 1, 0.2); 
-    border-bottom: 1px solid rgba(0, 1, 1, 0.2); 
-}
-
 .directory-listing-border {
      border-bottom: 1px solid rgba(0, 1, 1, 0.2); 
-}
-.directory-item-image-3 {
-    margin: 0px;
-    padding-top: 2px;
-
 }
 .directory-item-image {
     padding-top: 2px;
@@ -1076,37 +1007,15 @@ ul.footer-social li {
 .housing-list {
     width: 1200px;
     margin: 0 auto;
-    margin-top: 303px;
+    margin-top: 359px;
 }
 .directory-item2 {
+    margin-left: 20px;
     margin-bottom: 10px;
-    margin-left: 30px;
 }
 .hotel-flex {
     display: flex;
-    flex-direction: row;  
-    padding-top: 0px;
-}
-.hotel-flex-button-1 {
-    display: flex;
-    flex-direction: row;  
-    padding-top: 2px;
-}
-.hotel-flex {
-    display: flex;
-    flex-direction: row;  
-    padding-top: 0px;
-}
-.hotel-flex-2 {
-    display: flex;
-    flex-direction: row;  
-    padding-top: 2px;
-}
-.hotel-flex-3 {
-    display: flex;
-    flex-direction: row;
-    padding-top: 2px;
-
+    flex-direction: row;   
 }
 .directory-item3 {
     margin-left: auto;
@@ -1118,17 +1027,14 @@ ul.footer-social li {
     padding-bottom: 11px;
 }
 .type-price {
-    padding-left: 38px;
+    padding-left: 53px;
 }
 .type-price-3000 {
-    padding-left: 64px;
+    padding-left: 80px;
 }
 .type-price-2000 {
-    padding-left: 21px;
+    padding-left: 36px;
 }
 .button-reservation  {
-    margin-left: 5px;
-
-    padding-top: 5px;
-
+    margin-left: 20px;
 }
