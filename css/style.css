@@ -334,14 +334,13 @@ li {
     color: #666666;
     background-color: #f2f2f2;
     padding-bottom: 1px;
-    padding-left: 1px;
-    padding-right: 16px;
     width: 112px;
     min-height: 27px;
-    padding-top: 1px;
-    margin-top: 48px;
-   
-
+    margin-top: 46px;
+    padding-left: 0px;
+    padding-right: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .star-hotel-2 {
