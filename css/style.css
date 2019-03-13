@@ -390,7 +390,7 @@ a {
 }
 
 .star-hotel-2 {
-    background-image: url(../img/star.png);
+    background-image: url(../img/star.svg);
     background-size:  18px, 17px;
     background-repeat: space; 
     height: 17px;
@@ -399,7 +399,7 @@ a {
     margin-left: auto;
 }
 .star-hotel-3 {
-    background-image: url(../img/star.png);
+    background-image: url(../img/star.svg);
     background-size:  18px, 17px;
     background-repeat: space; 
     height: 17px;
@@ -408,7 +408,7 @@ a {
     margin-left: auto;
 }
 .star-hotel-4 {
-    background-image: url(../img/star.png);
+    background-image: url(../img/star.svg);
     background-size:  18px, 17px;
     background-repeat: space; 
     height: 17px;
@@ -544,15 +544,12 @@ a {
 
 /*Хэштег Седоны*/
 .visit {
-
+    margin: auto;
     font-size: 21px;
     font-weight: bold;
     line-height: 1.24;
     color: #000000;
-    margin: 0px;
-    padding-left: 132px;
-    padding-bottom: 0px;
-    padding-top: 40px;
+    min-height: 18px;
 }
 /*Копирайт*/
 .web-copyright {
@@ -560,11 +557,16 @@ a {
         -ms-grid-row-align: center;
         align-self: center;
     width: 82px;
+    min-height: 26px;
     font-size: 14px;
     font-weight: normal;
     line-height: 1.86;
     color: #000000;
-    padding-top: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 0px;
+    
 }
 
 
@@ -586,8 +588,8 @@ a {
     display: flex;
     width: 400px;
     margin: 0px;
-    padding-bottom: 0px;
-    padding-top: 8px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 ul.footer-social li {
     margin: 3px;
@@ -610,14 +612,13 @@ ul.footer-social li {
     padding-top: 0px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; 
+
 }
 .social-block {
     width: 400px;
-    padding-top: 33px;
-    padding-right: 1px;
-    padding-bottom: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: auto;
+    
+
 }
 .footer-copyright {
     display: -webkit-box;
@@ -629,20 +630,27 @@ ul.footer-social li {
     -ms-flex-item-align: center;
         align-self: center;
     width: 400px;
-    padding-bottom: 22px;
+    min-height: 120px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .logo-footer {
     width: 115px;
     height: 41px;
-    padding-top: 3px;
-    padding-left: 0px;
+    margin-top: 9px;
 }
 .logo-footer:hover {fill: #81b3d2;}
 .logo-footer:active {fill: #bdbbbc;} 
 .link-footer {
+    min-height: 42px;
+    align-items: center;
     -ms-flex-item-align: end;
         align-self: flex-end;
-    padding-top: 25px;
+         margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+    margin-right: auto;
+    
 }
 
 
