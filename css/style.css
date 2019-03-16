@@ -250,6 +250,69 @@ a {
     margin-top: 47px;
     text-align: center;
 }
+
+/*Блок с перечислением преимуществ*/
+.point-one {
+    display: flex;
+    flex-wrap: wrap;
+}
+.point-one-headline {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+}
+.point-one-description {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 26px;
+    color: #ffffff;
+    width: 400px;
+    min-height: 256px;
+    text-align: center;
+    background-color: #81b3d2;
+}
+.point-one-photo {
+    width: 800px;
+    min-height: 256px;
+    background-image: url(../img/layer2.png);
+    background-size: 800px, 256px;
+}
+.point-one-photo-2 {
+    width: 800px;
+    min-height: 256px;
+    background-image: url(../img/layer1.png);
+    background-size: 800px, 256px;
+}
+.point-one-features {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
+    width: 400px;
+    min-height: 330px;
+    align-items: center;
+}
+.point-one-features-last {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
+    width: 400px;
+    min-height: 330px;
+    align-items: center;
+    background-color: #eeeeee;
+}
+.feature-font {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
 /*Форма заполнения данных*/
 .form-zone {
     display: -webkit-box;
