@@ -22,9 +22,59 @@
 	</header>
 	<main>
 		<h1 class="visually-hidden">Подбор жилья по параметрам</h1>
-	 	<section class="housing options">
+	 	<section class="housing-options">
 	 		<h2  class="visually-hidden">Выбор параметров</h2>
-	 		<!-- Тут будем форма выбора параметров для поиска -->
+	 			<div class="options-back">
+	 				<div class="checkbox">
+	 					<p>Инфраструктура:</p>
+  						<input type="checkbox" id="foo-1" hidden />
+  						<label for="foo-1">Бассейн</label>
+  						<input type="checkbox" id="foo-2" hidden />
+  						<label for="foo-2">Парковка</label>
+  						<input type="checkbox" id="foo-3" hidden />
+  						<label for="foo-3">Wi-Fi</label>
+					</div>
+	 				<div class="checkbox">
+	 					<p>Тип жилья:</p>
+  						<input type="checkbox" id="foo-4" hidden />
+  						<label for="foo-4">Гостиница</label>
+  						<input type="checkbox" id="foo-5" hidden />
+  						<label for="foo-5">Мотель</label>
+  						<input type="checkbox" id="foo-6" hidden />
+  						<label for="foo-6">Апартаменты</label>
+					</div>
+					 <div class="filter-range">
+      					<div class="filter-range-title">Стоимость в сутки (р):</div>
+      					<div class="price-controls">
+      						<label class="min-price">от <input type="text" name="min-price" value="0"></label>
+        					<label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+      					</div>
+      					<div class="range-controls">
+							<div class="scale">
+          						<div class="bar"></div>
+        					</div>
+        					<div class="range-toggle range-toggle-min"></div>
+        					<div class="range-toggle range-toggle-max"></div>
+      					</div>
+    					<button class="btn-transparent" type="submit">Показать</button>
+    				</div>
+					
+				</div>
+				<div class="sorting">
+					<p class="find-item">Найдено: 3</p>
+					<p class="sorting-prm">Сортировка:</p>
+					<a class="price" >По цене</a>
+					<a class="sorting-type" href="#">По типу</a>
+					<a class="sorting-rating" href="#">По рейтингу</a>
+					<div class="up-dwn">
+						<button class="btn-updn btn-color">
+							<svg  xmlns="http://www.w3.org/2000/svg" width="11" height="10"><path  d="M5.5 0L0 10h11z"/></svg>
+						</button>
+						<button class="btn-updn btn-color">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="#81b3d2" width="11" height="10"><path  d="M5.5 10L0 0h11"/></svg>
+						</button>
+					</div>
+				</div>
 	 	</section>
 	 	<section class="housing-list">
 				<div class="directory-listing"> 
@@ -124,5 +174,6 @@
     	</div>
     </footer>
 	</div>
+	<script src="E:/HTML_Academy/js/script.js"></script>
 </body>
 </html>
