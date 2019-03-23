@@ -23,24 +23,26 @@
 	<main>
 		<h1 class="visually-hidden">Подбор жилья по параметрам</h1>
 	 	<section class="housing-options">
-	 		<h2  class="visually-hidden">Выбор параметров</h2>
+			<h2  class="visually-hidden">Выбор параметров</h2>
+
+	 		<form action="https://echo.htmlacademy.ru" method="get">
 	 			<div class="options-back">
 	 				<div class="checkbox">
 	 					<p>Инфраструктура:</p>
-  						<input type="checkbox" id="foo-1" hidden />
+  						<input type="checkbox" class="visually-hidden" name="pool" id="foo-1"/>
   						<label for="foo-1">Бассейн</label>
-  						<input type="checkbox" id="foo-2" hidden />
+  						<input type="checkbox" class="visually-hidden" name="parking" id="foo-2"/>
   						<label for="foo-2">Парковка</label>
-  						<input type="checkbox" id="foo-3" hidden />
+  						<input type="checkbox" class="visually-hidden" name="wi-fi" id="foo-3"/>
   						<label for="foo-3">Wi-Fi</label>
 					</div>
 	 				<div class="checkbox">
 	 					<p>Тип жилья:</p>
-  						<input type="checkbox" id="foo-4" hidden />
+  						<input type="checkbox" class="visually-hidden" name="hotel" id="foo-4"/>
   						<label for="foo-4">Гостиница</label>
-  						<input type="checkbox" id="foo-5" hidden />
+  						<input type="checkbox" class="visually-hidden" name="motel" id="foo-5"/>
   						<label for="foo-5">Мотель</label>
-  						<input type="checkbox" id="foo-6" hidden />
+  						<input type="checkbox" class="visually-hidden" name="apartments" id="foo-6"/>
   						<label for="foo-6">Апартаменты</label>
 					</div>
 					 <div class="filter-range">
@@ -58,8 +60,8 @@
       					</div>
     					<button class="btn-transparent" type="submit">Показать</button>
     				</div>
-					
 				</div>
+				</form>	
 				<div class="sorting">
 					<p class="find-item">Найдено: 3</p>
 					<p class="sorting-prm">Сортировка:</p>
@@ -174,6 +176,6 @@
     	</div>
     </footer>
 	</div>
-	<script src="E:/HTML_Academy/js/script.js"></script>
+	
 </body>
 </html>

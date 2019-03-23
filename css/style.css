@@ -876,6 +876,9 @@ ul.footer-social li {
     padding: 55px;
     padding-top: 53px;
 } 
+.display-show {
+    display: block;
+}
  .button-form {
     border: 0px;
  }
@@ -1052,14 +1055,14 @@ ul.footer-social li {
 }
 .checkbox input[type="checkbox"] {
   position: absolute; 
-  width: 110px;
-  height: 96px; 
-  overflow: hidden;
-  margin: 0;
+  width: 24px;
+  height: 24px; 
+  /*overflow: hidden;*/
+  /*margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
-  opacity: 0;
+  opacity: 0;*/
 }
 .checkbox input[type="checkbox"] + label {
     position: relative;
@@ -1069,8 +1072,8 @@ ul.footer-social li {
 }
 .checkbox input[type="checkbox"] + label:before {
     display: block;
-    width: 110px;
-    height: 96px;
+    width: 24px;
+    height: 24px;
     background: url("../img/checkboxoff.svg");
     background-repeat: no-repeat;
     content: " ";
@@ -1083,6 +1086,12 @@ ul.footer-social li {
     background-image: url("../img/checkboxon.svg");
 }
 
+
+.checkbox input[type="checkbox"]:focus + label:before {
+    outline: thin dotted;
+    outline: 10px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
 .filter-range {
     width: 317px;
     margin-left: auto;
