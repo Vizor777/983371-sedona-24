@@ -54,8 +54,9 @@ a {
     width: 1200px;
     background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
-    bottom: 7px;
+    bottom: 0px;
     min-height: 120px;
+    z-index: 1;
 }
 .foot-hotels {
     display: -webkit-box;
@@ -783,6 +784,7 @@ a {
 .modal {
     position: absolute;
     left:26.3%; 
+    z-index: 999999;
 }
 .date-selection-map {
     width: 1200px;
@@ -1002,6 +1004,7 @@ ul.footer-social li {
 }
 .form-fone {
     display: none;
+    z-index: 99;
     /*margin-left: auto;
     margin-right: auto;*/
     width: 568px;
@@ -1225,8 +1228,14 @@ ul.footer-social li {
 .checkbox input[type="checkbox"]:checked + label:before {
     background-image: url("../img/checkboxon.svg");
 }
-
-
+.checkbox input[type="checkbox"]:disabled + label:before {
+    background-image: url("../img/checkboxoff-2.png");
+    stroke: #6a6a6a;
+}
+.checkbox input[type="checkbox"]:checked:disabled + label:before {
+    background-image: url("../img/checkboxon-2.png");
+    stroke: #6a6a6a;
+}
 .checkbox input[type="checkbox"]:focus + label:before {
     outline: thin dotted;
     outline: 10px auto -webkit-focus-ring-color;
